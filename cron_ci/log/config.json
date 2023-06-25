@@ -1,0 +1,3 @@
+{"Q1u":"UPDATE final_chart_100_199_test SET morning = REPLACE(morning, \"'\", \"\") , breakfast = REPLACE(breakfast, \"'\", \"\") , midmeal = REPLACE(midmeal, \"'\", \"\") ,lunch = REPLACE(lunch, \"'\", \"\") ,evening = REPLACE(evening, \"'\", \"\") ,dinnner = REPLACE(dinnner, \"'\", \"\") ,bedtime = REPLACE(bedtime, \"'\", \"\");",
+  "u2":"SELECT * FROM final_chart_100_199_test"
+}

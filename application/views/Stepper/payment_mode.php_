@@ -1,0 +1,31 @@
+<?php include('header.php'); ?>
+<form  method="post" action="<?=base_url('Stepper/check_payment')?>">
+	<section id="main-sectoin">
+		<div class="container h-100" id="id2">
+			<div class="row justify-content-md-center my-auto">
+				<div class="col col-lg-8">
+					<div class="section-area">
+						<h4 class="title-label text-center"><span></span> Payment mode?* </h4>
+						<style>
+						.hiddenradio [type=radio] {position:absolute;opacity:0;width:0;height:0;}
+						.hiddenradio [type=radio] + img {cursor: pointer;}
+						.hiddenradio [type=radio]:checked + img {outline: 1px solid #f00;}
+					</style>
+<div class="hiddenradio text-center">
+<label><input type="radio" name="payment_mode" value="online"><img src="<?php echo base_url(); ?>diet/paymentpage/Paytm-Symbol.png"></label>
+						<!-- <label><input type="radio" name="payment_mode" value="offline"><img src="<?php echo base_url(); ?>dgassets/stepper/offline-pay.png"></label> -->
+					</div>
+					<input type="hidden" name="amount" value="<?=$amount?>">
+					<p><br /></p>
+					<div class="main-button1 text-center"><button type="submit" name="Submit" value="Submit" class="main-okay-btn"> Submit </button> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>  
+</form>			  
+<div class="next-and-back-arrow">
+	<a href="<?=base_url('Stepper/stepper_final')?>">  <img src="<?php echo base_url(); ?>dgassets/stepper/back-arrow.png"></a>
+</div>
+<?php include('footer.php'); ?>
+

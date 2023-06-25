@@ -1,0 +1,19 @@
+#succes-story{width:100%; float:left; text-align:center; padding:170px 0;color:#000;}
+.img-box{width:80px; height:80px; display:inline-block; overflow:hidden; border-radius:100%; -webkit-border-radius:100%; -moz-border-radius:100%;}
+.img-box{text-align:center;}
+#succes-story .author{font-size: 25px; font-weight:700; text-transform:uppercase; color:#000;font-size: 18px;}
+#succes-story .fa-star{color:#ffa900; font-size: 18px;}
+#succes-story .testimonial p{font-weight:400; font-size:16px; color:#666; line-height:30px; font-style:italic; margin-bottom:30px;}
+.star-rating{padding:5px 0 3px;}
+.total-review-text{font-size:30px; color:#000; padding:0 0 50px 0; font-weight:700;}
+
+#succes-story .col-md-6 .more-text{
+        display: none;
+    }
+
+    .morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}

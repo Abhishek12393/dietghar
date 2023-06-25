@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="414" height="17.5" viewBox="0 0 414 17.5">
+  <g id="Group_2634" data-name="Group 2634" transform="translate(-1414 -436.5)">
+    <line id="Line_278" data-name="Line 278" y2="5" transform="translate(1417.5 436.5)" fill="none" stroke="#000" stroke-width="1"/>
+    <line id="Line_281" data-name="Line 281" y2="5" transform="translate(1505.5 436.5)" fill="none" stroke="#000" stroke-width="1"/>
+    <line id="Line_282" data-name="Line 282" y2="5" transform="translate(1733.5 436.5)" fill="none" stroke="#000" stroke-width="1"/>
+    <line id="Line_279" data-name="Line 279" y2="5" transform="translate(1620.5 436.5)" fill="none" stroke="#000" stroke-width="1"/>
+    <line id="Line_280" data-name="Line 280" y2="5" transform="translate(1819.5 436.5)" fill="none" stroke="#000" stroke-width="1"/>
+    <text id="_0" data-name="0" transform="translate(1414 451)" font-size="10" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">0</tspan></text>
+    <text id="_30" data-name="30" transform="translate(1500 451)" font-size="10" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">30</tspan></text>
+    <text id="_70" data-name="70" transform="translate(1727 451)" font-size="10" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">70</tspan></text>
+    <text id="_50" data-name="50" transform="translate(1615 451)" font-size="10" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">50</tspan></text>
+    <text id="_100" data-name="100" transform="translate(1811 451)" font-size="10" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">100</tspan></text>
+  </g>
+</svg>

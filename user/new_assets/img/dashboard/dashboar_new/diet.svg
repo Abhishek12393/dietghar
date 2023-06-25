@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="431" height="18.5" viewBox="0 0 431 18.5">
+  <g id="Group_2636" data-name="Group 2636" transform="translate(-1404 -436.5)">
+    <line id="Line_278" data-name="Line 278" y2="5" transform="translate(1417.5 436.5)" fill="none" stroke="#000" stroke-width="1"/>
+    <line id="Line_281" data-name="Line 281" y2="5" transform="translate(1505.5 436.5)" fill="none" stroke="#000" stroke-width="1"/>
+    <line id="Line_282" data-name="Line 282" y2="5" transform="translate(1733.5 436.5)" fill="none" stroke="#000" stroke-width="1"/>
+    <line id="Line_279" data-name="Line 279" y2="5" transform="translate(1620.5 436.5)" fill="none" stroke="#000" stroke-width="1"/>
+    <line id="Line_280" data-name="Line 280" y2="5" transform="translate(1819.5 436.5)" fill="none" stroke="#000" stroke-width="1"/>
+    <text id="_07:00" data-name="07:00" transform="translate(1404 452)" font-size="10" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">07:00</tspan></text>
+    <text id="_10:00" data-name="10:00" transform="translate(1493 451)" font-size="10" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">10:00</tspan></text>
+    <text id="_05:00" data-name="05:00" transform="translate(1720 451)" font-size="10" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">05:00</tspan></text>
+    <text id="_01:00" data-name="01:00" transform="translate(1608 451)" font-size="10" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">01:00</tspan></text>
+    <text id="_09:00" data-name="09:00" transform="translate(1806 451)" font-size="10" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">09:00</tspan></text>
+  </g>
+</svg>

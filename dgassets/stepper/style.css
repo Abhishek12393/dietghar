@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Prata&subset=cyrillic,cyrillic-ext,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+body {font-family: "lato", Arial, Helvetica, sans-serif;font-weight: 400;font-size: 13px;line-height: 26px;color: #86898c;background-color: #fff;letter-spacing: 0px;}
+body .page {overflow: hidden;position: relative;z-index: 10;}
+header, section { display: block;}
+a {color: #2b343b; outline: medium none;}
+.site-branding a{transition: all 0.3s ease-in-out;}
+.pricing-list-frist-1 {width: 100%;text-align: center;display: block;box-shadow: 3px 3px 3px #216a177a;border-radius: 5px;background: #FFF;}
+.site-branding {width: 100%;height: 115px;line-height: 115px;position: relative;display: block;z-index: 1;transition: all 0s ease-in-out 0s;}
+.site-branding img{transition: all 0s ease-in-out 0s;}
+h2 {font-size: 35px;line-height: 40px;}
+h1, h2, h3, h4, h5, h6 {font-family: "Prata", Arial, Helvetica, sans-serif; margin-bottom: 15px; font-weight: 400; color: #2b343b;}
+.mb-4 {margin-bottom: 4px !important;}
+.mt-50 {margin-top: 50px !important;}
+.pt-5 {padding-top: 5px !important;}
+a, button, input {outline: medium none; color: #609930;}
+button {transition: all 0.5s ease-in-out 0s;}
+button, input[type="submit"], input[type="button"], input[type="reset"] {display: inline-block;text-decoration: none;font-size: 16px;line-height: 21px;font-weight: 500;padding: 11px 40px 11px;border: 2px solid transparent;border-radius: 0;color: #fff;-webkit-transition: all 0.25s ease;transition: all 0.25s ease;cursor: pointer;outline: none !important;-webkit-font-smoothing: antialiased;}
+ul {list-style: none;}
+.name-price {display: block;margin: 16px 0;font-size: 20px;color: #206b16;}
+.price-price-title {display: block;font-size: 60px;color: #609930;font-weight: bold;margin: 40px 0;}
+.price-price-title1 {display: block;font-size: 60px;color: #1f6613;font-weight: bold;margin: 40px 0;}
+.list-detials-main-section {display: block;margin: 0 0 50px 0px;padding: 0 0 20px 0;text-align: left;}
+.list-detials-main-section li {padding: 10px;border-top: 1px solid #969696;text-transform: capitalize;font-size: 14px;color: #000;font-weight: 500;}
+.frist-r {border-top: 5px solid #1f6613;border-right: 1px solid #1f6613;border-left: 1px solid #1f6613;border-bottom: 1px solid #1f6613;margin: 0 0 0 0;height: 100%;}
+.frist-l {border-top: 5px solid #609930;border-right: 1px solid #609930;border-left: 1px solid #609930;border-bottom: 1px solid #609930;background: #609930;color: #FFF !important;height: 100%;}
+.frist-l .name-price {color: #FFF;}
+.frist-l .date-price {color: #FFF;}
+.frist-l .list-detials-main-section li {color: #FFF;border-color: #FFF;}
+.frist-l .price-price-title {color: #FFF;}
+.btn-main-set-price {display: block;margin: 20px 0 20px 0;}
+.frist-l .main-btn-set1 {color: #24681b;background: #FFF;}
+.main-btn-set1 {padding: 15px 50px;border-radius: 35px !important;background: #24681b;color: #FFF;}
+.will-you-get-title {display: block;text-align: center;margin: 0 0 40px 0;font-size: 40px;}
+/*.main-get-set {width: 100%;display: block;background: #FFF;	padding: 20px;text-align: center;height: 100%; border-radius: 15px; transition: 0.5s;}
+.main-get-set:hover {box-shadow: 0 0 16px #01b4bd;transition: 0.5s;}
+.img-1-get-42 {width: 130px;display: block;margin: 0 auto 20px;border: 2px solid #01b4bd;border-radius: 75%;padding: 20px;overflow: hidden;}
+.img-1-get-42 img {width: 100%;}
+.t-title {color: #fe8543;font-weight: bold;line-height: 30px;}
+.main-get-set:hover img {transform: scale(1.1);}*/
+.content-view-set-main {display: none;}
+.content-less-set-main {display: none;}
+.content-less-set-main2 {display: none;}
+.content-view-set-main2 {display: none;}
+@media only screen and (max-width: 992px) {
+.btn-main-set-price {display: block;margin: 20px 0 20px 0;}
+.main-btn-set1 {padding: 10px 30px;border-radius: 35px !important;background: #24681b;color: #FFF;}
+}
+@media only screen and (max-width: 768px) {
+.main-section-pricing-420 .col-sm-6.col-md-3.col-lg-3.col-xl-3 {margin: 20px 0;}
+.content-view-set-main {background: none;display: block;text-align: center;width: 100%;padding: 0px;color: #fe8543;}
+.content-less-set-main {display: none;}
+.list-detials-main-section {display: none;transition: 0.5s;}
+.intro1 .list-detials-main-section  {display: block;transition: 0.5s;}
+.intro1 .content-view-set-main {display: none;}
+.intro1 .content-less-set-main {display: block; transition: 0.5s; background: none; text-align: center;	width: 100%;padding: 0px;color: #fe8543;}
+.content-view-set-main2 {display: block; background: none;display: block;text-align: center;width: 100%;padding: 0px;color: #fe8543;}
+.content-less-set-main2 {display: none;}
+.list-detials-main-section {display: none;transition: 0.5s;}
+.intro2 .list-detials-main-section  {display: block;transition: 0.5s;}
+.intro2 .content-view-set-main2 {display: none;}
+.intro2 .content-less-set-main2 {display: block;transition: 0.5s; background: none;text-align: center;width: 100%;padding: 0px;color: #fe8543;}
+}
+@media only screen and (max-width: 575px) {
+.main-section-pricing-420 .col-sm-6.col-md-3.col-lg-3.col-xl-3 {margin: 20px 0;}
+.main-btn-set1 {padding: 15px 50px;border-radius: 35px !important;background: #24681b;color: #FFF;}
+.btn-main-set-price {display: block;margin: 20px 0 20px 0;}
+.frist-r {border-top: 5px solid #1f6613;border-right: 1px solid #1f6613;border-left: 1px solid #1f6613;border-bottom: 1px solid #1f6613;margin: 20px 0 0 0;height: 100%;}
+.site-branding img {max-height: 60px; margin-bottom: 40px;}
+}
+@media only screen and (max-width: 375px) {
+.main-section-pricing-420 .col-sm-6.col-md-3.col-lg-3.col-xl-3 {margin: 20px 0;}
+.main-btn-set1 {padding: 15px 50px;border-radius: 35px !important;background: #24681b;color: #FFF;}
+.btn-main-set-price {display: block;margin: 20px 0 20px 0;}
+.frist-r {border-top: 5px solid #1f6613;border-right: 1px solid #1f6613;border-left: 1px solid #1f6613;border-bottom: 1px solid #1f6613;margin: 20px 0 0 0;height: 100%;}
+}
+@media (max-width: 991px){
+.section-title h2.title {font-size: 21px; line-height: 48px; margin-top: -70px; text-align: center;}
+.will-you-get-title {display: block; text-align: center; margin: -85px 0 40px 0; font-size: 24px;}
+}

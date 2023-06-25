@@ -1,0 +1,1047 @@
+/* Videos css Here */
+
+.wrapper .sidebar ul li:nth-child(3) {
+    border-right: 5px solid #667ACD !important;
+    border-radius: 5px;
+}
+
+#btnOne.active {
+    background-color: #58508d !important;
+    color: white !important;
+}
+
+#btnTwo.active {
+    background-color: #58508d !important;
+    color: white !important;
+}
+
+
+/* Mobile Devices responsiveness */
+
+@media (min-width: 320px) and (max-width: 374px) {
+    /* Search Component */
+    /* New Css */
+    .overflow_container {
+        width: inherit;
+        height: inherit;
+        overflow-y: scroll !important;
+    }
+    button.open-button {
+        width: 70px !important;
+        height: 70px !important;
+        background-color: #58508D !important;
+        padding: 10px 16px;
+        border-radius: 80px !important;
+        font-size: 24px;
+        line-height: 1.33;
+    }
+    button.open-button img {
+        width: 32px !important;
+        height: 36px !important;
+        line-height: 1.33;
+    }
+    .position_chat {
+        position: fixed;
+        top: 0;
+        bottom: 120px;
+        display: none;
+        z-index: 9998;
+    }
+    .btn--primary {
+        padding: 5px 5px !important;
+        z-index: 9999 !important;
+    }
+    .btn--inside {
+        margin-left: -26px !important;
+    }
+    #chat_widget {
+        zoom: 100% !important;
+        height: 85vh !important;
+        width: 100% !important;
+    }
+    #chat_widget .card-header {
+        border-radius: 0 !important;
+    }
+    .form__field {
+        width: 170px !important;
+    }
+    .card ul.list-group li.list-group-item .row .col-10 p {
+        font-size: 11px !important;
+        color: #000;
+        /* padding: 5px; */
+    }
+    /* New Css Ends here */
+    .wrapper .top_navbar .hamburger {
+        transition: all 0s ease;
+    }
+    .wrapper .sidebar {
+        transition: all 0.2s ease;
+    }
+    .wrapper.collapse_sm .sidebar {
+        transition: all 0.2s ease;
+    }
+    .searchButton {
+        position: relative;
+        right: 0;
+        top: 5px;
+        color: white;
+        float: right;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #ffa600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        border: none;
+        /* z-index: 1 !important;  */
+    }
+    .searchInput {
+        height: 22px;
+        display: inline !important;
+        /* z-index: -10 !important;  */
+        margin-right: -15px;
+        border: none;
+        background: none;
+        outline: none;
+        /* float: left; */
+        padding: 0;
+        color: white;
+        font-size: 0.6rem;
+        transition: 0.4s;
+        line-height: 40px;
+        width: 65px;
+        border-radius: 40px;
+        background: #fff;
+    }
+    .mr-custom-mobile {
+        margin-right: 0px !important;
+    }
+    .ml-100 {
+        margin-left: 65px;
+    }
+    .container {
+        max-width: 250px !important;
+    }
+    #video_container .topBtn {
+        font-size: 8px;
+        font-weight: 600;
+        padding: 5px;
+        width: 100px;
+        color: #58508d;
+        background-color: #fff;
+    }
+    #video_container .topBtn-2 {
+        font-size: 8px;
+        font-weight: 600;
+        padding: 5px;
+        width: 100px;
+        color: #58508d;
+        background-color: #fff;
+    }
+    .sort-heading {
+        font-size: 12px;
+        color: #58508d;
+        font-weight: 800;
+    }
+    .sort-link {
+        font-size: 12px;
+        font-weight: 900;
+        color: #000;
+    }
+    .thumb {
+        font-size: 11px;
+        font-weight: bold;
+        color: #000;
+    }
+    .thumb:hover {
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+    /* New Css */
+    .overflow_container {
+        width: inherit;
+        height: inherit;
+        overflow-y: scroll !important;
+    }
+    button.open-button {
+        width: 70px !important;
+        height: 70px !important;
+        background-color: #58508D !important;
+        padding: 10px 16px;
+        border-radius: 80px !important;
+        font-size: 24px;
+        line-height: 1.33;
+    }
+    button.open-button img {
+        width: 32px !important;
+        height: 36px !important;
+        line-height: 1.33;
+    }
+    .position_chat {
+        position: fixed;
+        top: 0;
+        bottom: 120px;
+        display: none;
+        z-index: 9998;
+    }
+    .btn--primary {
+        padding: 5px 5px !important;
+        z-index: 9999 !important;
+    }
+    .btn--inside {
+        margin-left: -26px;
+    }
+    #chat_widget {
+        zoom: 100% !important;
+        height: 85vh;
+        width: 100% !important;
+    }
+    #chat_widget .card-header {
+        border-radius: 0 !important;
+    }
+    .form__field {
+        width: 220px !important;
+    }
+    .card ul.list-group li.list-group-item .row .col-10 p {
+        font-size: 12px;
+        color: #000;
+    }
+    /* New Css Ends here */
+    /* Search Component */
+    .wrapper .top_navbar .hamburger {
+        transition: all 0s ease;
+    }
+    .wrapper .sidebar {
+        transition: all 0.2s ease;
+    }
+    .wrapper.collapse_sm .sidebar {
+        transition: all 0.2s ease;
+    }
+    .searchButton {
+        position: relative;
+        right: 0;
+        top: 5px;
+        color: white;
+        float: right;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #ffa600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        border: none;
+        /* z-index: 1 !important;  */
+    }
+    .searchInput {
+        height: 22px;
+        display: inline !important;
+        /* z-index: -10 !important;  */
+        margin-right: -15px;
+        border: none;
+        background: none;
+        outline: none;
+        /* float: left; */
+        padding: 0;
+        color: white;
+        font-size: 0.6rem;
+        transition: 0.4s;
+        line-height: 40px;
+        width: 100px;
+        border-radius: 40px;
+        background: #fff;
+    }
+    .mr-custom-mobile {
+        margin-right: 0px !important;
+    }
+    .ml-100 {
+        margin-left: 65px;
+    }
+    .container {
+        max-width: 280px !important;
+    }
+    #video_container .topBtn {
+        font-size: 8px;
+        font-weight: 600;
+        padding: 5px;
+        width: 100px;
+        color: #58508d;
+        background-color: #fff;
+    }
+    #video_container .topBtn-2 {
+        font-size: 8px;
+        font-weight: 600;
+        padding: 5px;
+        width: 100px;
+        color: #58508d;
+        background-color: #fff;
+    }
+    .sort-heading {
+        font-size: 12px;
+        color: #58508d;
+        font-weight: 800;
+    }
+    .sort-link {
+        font-size: 12px;
+        font-weight: 900;
+        color: #000;
+    }
+    .thumb {
+        font-size: 11px;
+        font-weight: bold;
+        color: #000;
+    }
+    .thumb:hover {
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 575px) {
+    /* New Css */
+    .overflow_container {
+        width: inherit;
+        height: inherit;
+        overflow-y: scroll !important;
+    }
+    button.open-button {
+        width: 70px !important;
+        height: 70px !important;
+        background-color: #58508D !important;
+        padding: 10px 16px;
+        border-radius: 80px !important;
+        font-size: 24px;
+        line-height: 1.33;
+    }
+    button.open-button img {
+        width: 32px !important;
+        height: 36px !important;
+        line-height: 1.33;
+    }
+    .position_chat {
+        position: fixed;
+        top: 0;
+        bottom: 120px;
+        display: none;
+        z-index: 9998;
+    }
+    .btn--primary {
+        padding: 5px 5px !important;
+        z-index: 9999 !important;
+    }
+    .btn--inside {
+        margin-left: -50px;
+    }
+    #chat_widget {
+        zoom: 100% !important;
+        height: 85vh;
+        width: 100% !important;
+    }
+    #chat_widget .card-header {
+        border-radius: 0 !important;
+    }
+    .form__field {
+        width: 270px !important;
+    }
+    .card ul.list-group li.list-group-item .row .col-10 p {
+        font-size: 12px;
+        color: #000;
+    }
+    /* New Css Ends here */
+    /* Search Component */
+    .wrapper .top_navbar .hamburger {
+        transition: all 0s ease;
+    }
+    .wrapper .sidebar {
+        transition: all 0.2s ease;
+    }
+    .wrapper.collapse_sm .sidebar {
+        transition: all 0.2s ease;
+    }
+    .searchButton {
+        position: relative;
+        right: 0;
+        top: 5px;
+        color: white;
+        float: right;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #ffa600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        border: none;
+        /* z-index: 1 !important;  */
+    }
+    .searchInput {
+        height: 22px;
+        display: inline !important;
+        /* z-index: -10 !important;  */
+        margin-right: -15px;
+        border: none;
+        background: none;
+        outline: none;
+        /* float: left; */
+        padding: 0;
+        color: white;
+        font-size: 0.6rem;
+        transition: 0.4s;
+        line-height: 40px;
+        width: 120px;
+        border-radius: 40px;
+        background: #fff;
+    }
+    .mr-custom-mobile {
+        margin-right: 0px !important;
+    }
+    .ml-100 {
+        margin-left: 65px;
+    }
+    .container {
+        max-width: 400px !important;
+    }
+    #video_container .topBtn {
+        font-size: 8px;
+        font-weight: 600;
+        padding: 5px;
+        width: 100px;
+        color: #58508d;
+        background-color: #fff;
+    }
+    #video_container .topBtn-2 {
+        font-size: 8px;
+        font-weight: 600;
+        padding: 5px;
+        width: 100px;
+        color: #58508d;
+        background-color: #fff;
+    }
+    .sort-heading {
+        font-size: 12px;
+        color: #58508d;
+        font-weight: 800;
+    }
+    .sort-link {
+        font-size: 12px;
+        font-weight: 900;
+        color: #000;
+    }
+    .thumb {
+        font-size: 11px;
+        font-weight: bold;
+        color: #000;
+    }
+    .thumb:hover {
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767px) {
+    /* New Css */
+    .overflow_container {
+        width: inherit;
+        height: inherit;
+        overflow-y: scroll !important;
+    }
+    button.open-button {
+        width: 70px !important;
+        height: 70px !important;
+        background-color: #58508D !important;
+        padding: 10px 16px;
+        border-radius: 80px !important;
+        font-size: 24px;
+        line-height: 1.33;
+    }
+    button.open-button img {
+        width: 32px !important;
+        height: 36px !important;
+        line-height: 1.33;
+    }
+    .position_chat {
+        position: fixed;
+        bottom: 290px;
+        right: 28px;
+        display: none;
+        z-index: 9999;
+    }
+    #chat_widget {
+        zoom: 80% !important;
+        height: 70vh !important;
+        width: 420px !important;
+    }
+    .form__field {
+        width: 260px;
+    }
+    /* New Css Ends here */
+    .wrapper .top_navbar .hamburger {
+        transition: all 0s ease;
+    }
+    .wrapper .sidebar {
+        transition: all 0.2s ease;
+    }
+    .wrapper.collapse_sm .sidebar {
+        transition: all 0.2s ease;
+    }
+    .container {
+        max-width: 540px !important;
+    }
+    .p-viewport-devices {
+        padding-left: 70px !important;
+        margin-top: 0;
+        padding-right: 50px !important;
+        padding-bottom: 0;
+    }
+    .searchButton {
+        position: relative;
+        right: 0;
+        color: white;
+        float: right;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background: #ffa600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        border: none;
+        /* z-index: 1 !important;  */
+    }
+    .searchInput {
+        height: 22px;
+        /* z-index: -10 !important;  */
+        margin-right: -25px;
+        border: none;
+        background: none;
+        outline: none;
+        /* float: left; */
+        padding: 0;
+        color: white;
+        font-size: 0.6rem;
+        transition: 0.4s;
+        line-height: 40px;
+        width: 120px;
+        border-radius: 40px;
+        background: #fff;
+    }
+    .ml-100 {
+        margin-left: 105px;
+    }
+    #video_container .topBtn {
+        font-size: 13px;
+        font-weight: 700;
+        padding: 5px;
+        width: 140px;
+        color: #58508d;
+        background-color: #fff;
+    }
+    #video_container .topBtn-2 {
+        font-size: 13px;
+        font-weight: 700;
+        padding: 5px;
+        width: 140px;
+        color: #58508d;
+        background-color: #fff;
+    }
+    .sort-heading {
+        font-size: 12px;
+        color: #58508d;
+        font-weight: 800;
+    }
+    .sort-link {
+        font-size: 12px;
+        font-weight: 900;
+        color: #000;
+    }
+    .thumb {
+        font-size: 11px;
+        font-weight: bold;
+        color: #000;
+    }
+    .thumb:hover {
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* New Css */
+    .overflow_container {
+        width: inherit;
+        height: inherit;
+        overflow-y: scroll !important;
+    }
+    button.open-button {
+        width: 70px !important;
+        height: 70px !important;
+        background-color: #58508D !important;
+        padding: 10px 16px;
+        border-radius: 80px !important;
+        font-size: 24px;
+        line-height: 1.33;
+    }
+    button.open-button img {
+        width: 32px !important;
+        height: 36px !important;
+        line-height: 1.33;
+    }
+    .position_chat {
+        position: fixed;
+        bottom: 270px;
+        right: 28px;
+        display: none;
+        z-index: 9999;
+    }
+    .form__field {
+        width: 260px;
+    }
+    #chat_widget {
+        zoom: 80% !important;
+        height: 70vh !important;
+        width: 420px !important;
+    }
+    /* New Css Ends here */
+    .container {
+        max-width: 720px !important;
+    }
+    .p-viewport-devices {
+        padding-left: 70px !important;
+        margin-top: 0;
+        padding-right: 50px !important;
+        padding-bottom: 0;
+    }
+    .searchButton {
+        position: relative;
+        right: 0;
+        color: white;
+        float: right;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background: #ffa600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        border: none;
+        /* z-index: 1 !important;  */
+    }
+    .searchInput {
+        height: 22px;
+        /* z-index: -10 !important;  */
+        margin-right: -25px;
+        border: none;
+        background: none;
+        outline: none;
+        /* float: left; */
+        padding: 0;
+        color: white;
+        font-size: 0.6rem;
+        transition: 0.4s;
+        line-height: 40px;
+        width: 120px;
+        border-radius: 40px;
+        background: #fff;
+    }
+    .ml-100 {
+        margin-left: 90px;
+    }
+    #video_container .topBtn {
+        font-size: 13px;
+        font-weight: 700;
+        padding: 5px;
+        width: 140px;
+        color: #58508d;
+        background-color: #fff;
+    }
+    #video_container .topBtn-2 {
+        font-size: 13px;
+        font-weight: 700;
+        padding: 5px;
+        width: 140px;
+        color: #58508d;
+        background-color: #fff;
+    }
+    .sort-heading {
+        font-size: 12px;
+        color: #58508d;
+        font-weight: 800;
+    }
+    .sort-link {
+        font-size: 12px;
+        font-weight: 900;
+        color: #000;
+    }
+    .thumb {
+        font-size: 11px;
+        font-weight: bold;
+        color: #000;
+    }
+    .thumb:hover {
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* New Css */
+    .overflow_container {
+        width: inherit;
+        height: inherit;
+        overflow-y: scroll !important;
+    }
+    button.open-button {
+        width: 70px !important;
+        height: 70px !important;
+        background-color: #58508D !important;
+        padding: 10px 16px;
+        border-radius: 80px !important;
+        font-size: 24px;
+        line-height: 1.33;
+    }
+    button.open-button img {
+        width: 32px !important;
+        height: 36px !important;
+        line-height: 1.33;
+    }
+    .position_chat {
+        position: fixed;
+        bottom: 270px;
+        right: 28px;
+        display: none;
+        z-index: 9999;
+    }
+    #chat_widget {
+        zoom: 80% !important;
+        height: 70vh !important;
+        width: 420px !important;
+    }
+    .form__field {
+        width: 260px;
+    }
+    /* New Css Ends here */
+    /* Search Component */
+    .container {
+        max-width: 960px !important;
+    }
+    .searchButton {
+        position: relative;
+        right: 0;
+        color: white;
+        float: right;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background: #ffa600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        border: none;
+        /* z-index: 1 !important;  */
+    }
+    .searchInput {
+        height: 22px;
+        /* z-index: -10 !important;  */
+        margin-right: -25px;
+        border: none;
+        background: none;
+        outline: none;
+        /* float: left; */
+        padding: 0;
+        color: white;
+        font-size: 0.6rem;
+        transition: 0.4s;
+        line-height: 40px;
+        width: 120px;
+        border-radius: 40px;
+        background: #fff;
+    }
+    .ml-100 {
+        margin-left: 115px;
+    }
+    #video_container .topBtn {
+        font-size: 13px;
+        font-weight: 700;
+        padding: 5px;
+        width: 140px;
+        color: #58508d;
+        background-color: #fff;
+    }
+    #video_container .topBtn-2 {
+        font-size: 13px;
+        font-weight: 700;
+        padding: 5px;
+        width: 140px;
+        color: #58508d;
+        background-color: #fff;
+    }
+    .sort-heading {
+        font-size: 12px;
+        color: #58508d;
+        font-weight: 800;
+    }
+    .sort-link {
+        font-size: 12px;
+        font-weight: 900;
+        color: #000;
+    }
+    .thumb {
+        font-size: 11px;
+        font-weight: bold;
+        color: #000;
+    }
+    .thumb:hover {
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+    /* New Css */
+    .overflow_container {
+        width: inherit;
+        height: inherit;
+        overflow-y: scroll !important;
+    }
+    button.open-button {
+        width: 70px !important;
+        height: 70px !important;
+        background-color: #58508D !important;
+        padding: 10px 16px;
+        border-radius: 80px !important;
+        font-size: 24px;
+        line-height: 1.33;
+    }
+    button.open-button img {
+        width: 32px !important;
+        height: 36px !important;
+        line-height: 1.33;
+    }
+    .position_chat {
+        position: fixed;
+        bottom: 270px;
+        right: 28px;
+        display: none;
+        z-index: 9999;
+    }
+    .form__field {
+        width: 260px;
+    }
+    #chat_widget {
+        zoom: 80% !important;
+        height: 70vh !important;
+        width: 420px !important;
+    }
+    /* New Css Ends here */
+    .container {
+        max-width: 1140px !important;
+    }
+    .searchButton {
+        position: relative;
+        right: 0;
+        color: white;
+        float: right;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background: #ffa600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        border: none;
+        /* z-index: 1 !important;  */
+    }
+    .searchInput {
+    height: 32px;
+    /* z-index: -10 !important; */
+    margin-right: -25px;
+    border: none;
+    background: none;
+    outline: none;
+    /* float: left; */
+    padding: 0;
+    color: white;
+    font-size: 0.8rem;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 200px;
+    border-radius: 40px;
+    background: #fff;
+}
+    .ml-100 {
+        margin-left: 115px;
+    }
+    #video_container .topBtn {
+        font-size: 13px;
+        font-weight: 700;
+        padding: 5px;
+        width: 140px;
+        color: #58508d;
+        background-color: #fff;
+    }
+    #video_container .topBtn-2 {
+        font-size: 13px;
+        font-weight: 700;
+        padding: 5px;
+        width: 140px;
+        color: #58508d;
+        background-color: #fff;
+    }
+    .sort-heading {
+        font-size: 12px;
+        color: #58508d;
+        font-weight: 800;
+    }
+    .sort-link {
+        font-size: 12px;
+        font-weight: 900;
+        color: #000;
+    }
+    .thumb {
+        font-size: 11px;
+        font-weight: bold;
+        color: #000;
+    }
+    .thumb:hover {
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+@media (min-width: 1600px) {
+    /* New Css */
+    .overflow_container {
+        width: inherit;
+        height: inherit;
+        overflow-y: scroll !important;
+    }
+    .form__field {
+        width: 260px;
+    }
+    button.open-button {
+        width: 80px !important;
+        height: 80px !important;
+        background-color: #58508D !important;
+        padding: 10px 16px;
+        border-radius: 80px !important;
+        font-size: 24px;
+        line-height: 1.33;
+    }
+    button.open-button img {
+        width: 37px !important;
+        height: 40px !important;
+        line-height: 1.33;
+    }
+    .position_chat {
+        position: fixed;
+        bottom: 270px;
+        right: 28px;
+        display: none;
+        z-index: 9999;
+    }
+    #chat_widget {
+        zoom: 90% !important;
+        height: 70vh !important;
+        width: 420px !important;
+    }
+    /* New Css Ends here */
+    .container {
+        max-width: 1300px !important;
+        padding: 0;
+    }
+    /* Search Component */
+    .searchButton {
+        position: relative;
+        right: 0;
+        color: white;
+        float: right;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background: #ffa600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        border: none;
+        /* z-index: 1 !important;  */
+    }
+    .searchInput {
+        height: 22px;
+        /* z-index: -10 !important;  */
+        margin-right: -25px;
+        border: none;
+        background: none;
+        outline: none;
+        /* float: left; */
+        padding: 0;
+        color: white;
+        font-size: 0.6rem;
+        transition: 0.4s;
+        line-height: 40px;
+        width: 120px;
+        border-radius: 40px;
+        background: #fff;
+    }
+    .ml-100 {
+        margin-left: 115px;
+    }
+    #video_container .topBtn {
+        font-size: 13px;
+        font-weight: 700;
+        padding: 5px;
+        width: 140px;
+        color: #58508d;
+        background-color: #fff;
+    }
+    #video_container .topBtn-2 {
+        font-size: 13px;
+        font-weight: 700;
+        padding: 5px;
+        width: 140px;
+        color: #58508d;
+        background-color: #fff;
+    }
+    .sort-heading {
+        font-size: 12px;
+        color: #58508d;
+        font-weight: 800;
+    }
+    .sort-link {
+        font-size: 12px;
+        font-weight: 900;
+        color: #000;
+    }
+    .thumb {
+        font-size: 11px;
+        font-weight: bold;
+        color: #000;
+    }
+    .thumb:hover {
+        text-decoration: none;
+        color: #000;
+    }
+}

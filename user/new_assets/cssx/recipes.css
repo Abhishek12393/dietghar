@@ -1,0 +1,1593 @@
+/* Videos css Here */
+
+.wrapper .sidebar ul li:nth-child(5) {
+	border-right: 5px solid #667acd !important;
+	border-radius: 5px;
+}
+
+/* Mobile Devices responsiveness */
+@media (min-width: 320px) and (max-width: 374px) {
+	/* New Css */
+	.overflow_container {
+		width: inherit;
+		height: inherit;
+		overflow-y: scroll !important;
+		}
+	
+		button.open-button {
+			width: 70px !important;
+			height: 70px !important;
+			background-color:#58508D !important;
+			padding: 10px 16px;
+			border-radius: 80px !important;
+			font-size: 24px;
+			line-height: 1.33;
+		}
+		button.open-button img {
+			width: 32px !important;
+			height: 36px !important;
+			line-height: 1.33;
+			
+		} 
+		.position_chat {
+			position: fixed;
+			top: 0;
+			bottom: 120px;
+			display: none;
+			z-index: 9998;
+			
+		}
+		.btn--primary {
+			padding: 5px 5px !important;
+			z-index: 9999 !important;
+		}
+		.btn--inside {
+			margin-left: -26px !important;
+		}
+		#chat_widget {
+			zoom: 100% !important;
+			height: 85vh !important;
+			width: 100% !important;
+		}
+		#chat_widget .card-header {
+			border-radius: 0 !important;
+		}
+		.form__field {
+			width: 170px !important;
+		}
+	
+		.card ul.list-group li.list-group-item .row .col-10 p {
+			font-size: 11px !important;
+			color: #000;
+			/* padding: 5px; */
+		}
+		/* New Css Ends here */
+	.wrapper .top_navbar .hamburger {
+		transition: all 0s ease;
+	}
+	.wrapper .sidebar {
+		transition: all 0.2s ease;
+	}
+	.wrapper.collapse_sm .sidebar {
+		transition: all 0.2s ease;
+	}
+	.p-viewport-devices {
+		padding-left: 30px !important;
+		margin-top: 0;
+		padding-right: 30px !important;
+		padding-bottom: 0;
+	}
+	::-webkit-scrollbar {
+		width: 5px;
+		height: 8px;
+		border: 1px solid #d5d5d5;
+	}
+
+	::-webkit-scrollbar-track {
+		border-radius: 10px;
+		background: #eeeeee;
+	}
+
+	::-webkit-scrollbar-thumb {
+		border-radius: 10px;
+		width: 10px !important;
+		height: 8px;
+		background: #58508d;
+	}
+	.d-xxl-vis {
+		display: none !important;
+	}
+	.d-xxl-hidd {
+		display: block !important;
+	}
+	#recipe_container h4.heading {
+		font-size: 14px;
+		font-weight: 800;
+	}
+	.searchButton {
+		position: relative;
+		right: 0;
+		top: 5px;
+		color: white;
+		float: right;
+		width: 25px;
+		height: 25px;
+		border-radius: 50%;
+		background: #ffa600;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: 0.4s;
+		border: none;
+		/* z-index: 1 !important;  */
+	}
+	.searchInput {
+		height: 22px;
+		display: inline !important;
+		/* z-index: -10 !important;  */
+		margin-right: -15px;
+		border: none;
+		background: none;
+		outline: none;
+		/* float: left; */
+		padding: 0;
+		color: white;
+		font-size: 0.6rem;
+		transition: 0.4s;
+		line-height: 40px;
+		width: 65px;
+		border-radius: 40px;
+		background: #fff;
+	}
+	.mr-custom-mobile {
+		margin-right: 0px !important;
+	}
+	.ml-100 {
+		margin-left: 60px;
+	}
+	#recipe_container .topBtn {
+		color: #fff;
+		font-size: 8px;
+		font-weight: 600;
+		padding: 2px;
+		width: 100px;
+		border-radius: 5px;
+		background-color: #d3d3d3;
+	}
+	#details_container h6 {
+		font-size: 9px;
+		font-weight: 800;
+		color: #000;
+	}
+	#details_container p {
+		font-size: 8px;
+		font-weight: 800;
+		color: #58508d;
+	}
+	#social_btn {
+		position: absolute;
+		right: 20px;
+		/* top: 0; */
+		bottom: -3px;
+		background-color: #d3d3d3;
+		padding-bottom: 2px !important;
+		height: 22px;
+		border-radius: 20px;
+		width: 60px;
+	}
+	#scroll-container {
+		height: 70vh;
+		overflow-y: scroll;
+	}
+	#recipe_cards {
+		border-bottom-right-radius: 25px;
+		border-bottom-left-radius: 25px;
+	}
+	#recipe_cards span {
+		padding-right: 30px !important;
+		color: red;
+		font-size: 14px;
+		font-weight: 900 !important;
+	}
+	#recipe_cards span img {
+		padding-right: 0 !important;
+		width: 16px;
+		height: 16px;
+	}
+	#recipe_cards .card-body h5.card-title {
+		font-size: 20px;
+		font-weight: 800;
+		color: #58508d;
+	}
+	#recipe_cards .card-body p.card-text {
+		font-size: 14px;
+		font-weight: bold;
+		color: #000;
+	}
+	.d-hidden-320 {
+		display: none;
+	}
+	.heading {
+		font-size: 20px;
+		padding-left: 12px;
+		font-weight: 800;
+		margin-top: -14px;
+		color: #000;
+	}
+	.animated-span {
+		font-size: 20px;
+		padding-left: 12px;
+		font-weight: 800;
+		cursor: pointer;
+		position: relative;
+		display: inline-block;
+		background: linear-gradient(to bottom, #000, #000 60%, #fff 60%, #fff 100%);
+		background-clip: text;
+		-webkit-background-clip: text;
+		color: #000;
+		background-repeat: no-repeat;
+		white-space: nowrap;
+	}
+	.animated-span:before {
+		content: "";
+		position: absolute;
+		left: 12px;
+		right: 0;
+		height: 10px;
+		background: #FFA600;
+		bottom: 20px;
+		z-index: -1;
+		/* transition: all 0.2s ease-out; */
+	  }
+}
+@media (min-width: 375px) and (max-width: 424px) {
+	/* New Css */
+	.overflow_container {
+		width: inherit;
+		height: inherit;
+		overflow-y: scroll !important;
+		}
+	
+		button.open-button {
+			width: 70px !important;
+			height: 70px !important;
+			background-color:#58508D !important;
+			padding: 10px 16px;
+			border-radius: 80px !important;
+			font-size: 24px;
+			line-height: 1.33;
+		}
+		button.open-button img {
+			width: 32px !important;
+			height: 36px !important;
+			line-height: 1.33;
+			
+		} 
+		.position_chat {
+			position: fixed;
+			top: 0;
+			bottom: 120px;
+			display: none;
+			z-index: 9998;
+			
+		}
+		.btn--primary {
+			padding: 5px 5px !important;
+			z-index: 9999 !important;
+		}
+		.btn--inside {
+			margin-left: -26px;
+		}
+		#chat_widget {
+			zoom: 100% !important;
+			height: 85vh;
+			width: 100% !important;
+		}
+		#chat_widget .card-header {
+			border-radius: 0 !important;
+		}
+		.form__field {
+			width: 220px !important;
+		}
+	
+		.card ul.list-group li.list-group-item .row .col-10 p {
+			font-size: 12px;
+			color: #000;
+		}
+		/* New Css Ends here */
+	.wrapper .top_navbar .hamburger {
+		transition: all 0s ease;
+	}
+	.wrapper .sidebar {
+		transition: all 0.2s ease;
+	}
+	.wrapper.collapse_sm .sidebar {
+		transition: all 0.2s ease;
+	}
+	.p-viewport-devices {
+		padding-left: 30px !important;
+		margin-top: 0;
+		padding-right: 30px !important;
+		padding-bottom: 0;
+	}
+	::-webkit-scrollbar {
+		width: 5px;
+		height: 8px;
+		border: 1px solid #d5d5d5;
+	}
+
+	::-webkit-scrollbar-track {
+		border-radius: 10px;
+		background: #eeeeee;
+	}
+
+	::-webkit-scrollbar-thumb {
+		border-radius: 10px;
+		width: 10px !important;
+		height: 8px;
+		background: #58508d;
+	}
+	.d-xxl-vis {
+		display: none !important;
+	}
+	.d-xxl-hidd {
+		display: block !important;
+	}
+	#recipe_container h4.heading {
+		font-size: 14px;
+		font-weight: 800;
+	}
+	.searchButton {
+		position: relative;
+		right: 0;
+		top: 5px;
+		color: white;
+		float: right;
+		width: 25px;
+		height: 25px;
+		border-radius: 50%;
+		background: #ffa600;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: 0.4s;
+		border: none;
+		/* z-index: 1 !important;  */
+	}
+	.searchInput {
+		height: 22px;
+		display: inline !important;
+		/* z-index: -10 !important;  */
+		margin-right: -15px;
+		border: none;
+		background: none;
+		outline: none;
+		/* float: left; */
+		padding: 0;
+		color: white;
+		font-size: 0.6rem;
+		transition: 0.4s;
+		line-height: 40px;
+		width: 100px;
+		border-radius: 40px;
+		background: #fff;
+	}
+	.mr-custom-mobile {
+		margin-right: 0px !important;
+	}
+	.ml-100 {
+		margin-left: 70px;
+	}
+	#recipe_container .topBtn {
+		color: #fff;
+		font-size: 8px;
+		font-weight: 600;
+		padding: 2px;
+		width: 100px;
+		border-radius: 5px;
+		background-color: #d3d3d3;
+	}
+	#details_container h6 {
+		font-size: 9px;
+		font-weight: 800;
+		color: #000;
+	}
+	#details_container p {
+		font-size: 8px;
+		font-weight: 800;
+		color: #58508d;
+	}
+	#social_btn {
+		position: absolute;
+		right: 20px;
+		/* top: 0; */
+		bottom: -3px;
+		background-color: #d3d3d3;
+		padding-bottom: 2px !important;
+		height: 22px;
+		border-radius: 20px;
+		width: 60px;
+	}
+	#scroll-container {
+		height: 70vh;
+		overflow-y: scroll;
+	}
+	#recipe_cards {
+		border-bottom-right-radius: 25px;
+		border-bottom-left-radius: 25px;
+	}
+	#recipe_cards span {
+		padding-right: 30px !important;
+		color: red;
+		font-size: 14px;
+		font-weight: 900 !important;
+	}
+	#recipe_cards span img {
+		padding-right: 0 !important;
+		width: 16px;
+		height: 16px;
+	}
+	#recipe_cards .card-body h5.card-title {
+		font-size: 20px;
+		font-weight: 800;
+		color: #58508d;
+	}
+	#recipe_cards .card-body p.card-text {
+		font-size: 14px;
+		font-weight: bold;
+		color: #000;
+	}
+	.d-hidden-320 {
+		display: none;
+	}
+	.heading {
+		font-size: 20px;
+		padding-left: 50px;
+		font-weight: 800;
+		margin-top: -14px;
+		color: #000;
+	}
+	.animated-span {
+		font-size: 20px;
+		padding-left: 50px;
+		font-weight: 800;
+		cursor: pointer;
+		position: relative;
+		display: inline-block;
+		background: linear-gradient(to bottom, #000, #000 60%, #fff 60%, #fff 100%);
+		background-clip: text;
+		-webkit-background-clip: text;
+		color: #000;
+		background-repeat: no-repeat;
+		white-space: nowrap;
+	}
+	.animated-span:before {
+		content: "";
+		position: absolute;
+		left: 50px;
+		right: 0;
+		height: 10px;
+		background: #FFA600;
+		bottom: 20px;
+		z-index: -1;
+		/* transition: all 0.2s ease-out; */
+	  }
+}
+@media (min-width: 425px) and (max-width: 575px) {
+	 /* New Css */
+	 .overflow_container {
+		width: inherit;
+		height: inherit;
+		overflow-y: scroll !important;
+		}
+	
+		button.open-button {
+			width: 70px !important;
+			height: 70px !important;
+			background-color:#58508D !important;
+			padding: 10px 16px;
+			border-radius: 80px !important;
+			font-size: 24px;
+			line-height: 1.33;
+		}
+		button.open-button img {
+			width: 32px !important;
+			height: 36px !important;
+			line-height: 1.33;
+			
+		} 
+		.position_chat {
+			position: fixed;
+			top: 0;
+			bottom: 120px;
+			display: none;
+			z-index: 9998;
+			
+		}
+		.btn--primary {
+			padding: 5px 5px !important;
+			z-index: 9999 !important;
+		}
+		.btn--inside {
+			margin-left: -50px;
+		}
+		#chat_widget {
+			zoom: 100% !important;
+			height: 85vh;
+			width: 100% !important;
+		}
+		#chat_widget .card-header {
+			border-radius: 0 !important;
+		}
+		.form__field {
+			width: 270px !important;
+		}
+	
+		.card ul.list-group li.list-group-item .row .col-10 p {
+			font-size: 12px;
+			color: #000;
+		}
+		/* New Css Ends here */
+	.wrapper .top_navbar .hamburger {
+		transition: all 0s ease;
+	}
+	.wrapper .sidebar {
+		transition: all 0.2s ease;
+	}
+	.wrapper.collapse_sm .sidebar {
+		transition: all 0.2s ease;
+	}
+	.p-viewport-devices {
+		padding-left: 30px !important;
+		margin-top: 0;
+		padding-right: 30px !important;
+		padding-bottom: 0;
+	}
+	::-webkit-scrollbar {
+		width: 5px;
+		height: 8px;
+		border: 1px solid #d5d5d5;
+	}
+
+	::-webkit-scrollbar-track {
+		border-radius: 10px;
+		background: #eeeeee;
+	}
+
+	::-webkit-scrollbar-thumb {
+		border-radius: 10px;
+		width: 10px !important;
+		height: 8px;
+		background: #58508d;
+	}
+	.d-xxl-vis {
+		display: none !important;
+	}
+	.d-xxl-hidd {
+		display: block !important;
+	}
+	#recipe_container h4.heading {
+		font-size: 14px;
+		font-weight: 800;
+	}
+	.searchButton {
+		position: relative;
+		right: 0;
+		top: 5px;
+		color: white;
+		float: right;
+		width: 25px;
+		height: 25px;
+		border-radius: 50%;
+		background: #ffa600;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: 0.4s;
+		border: none;
+		/* z-index: 1 !important;  */
+	}
+	.searchInput {
+		height: 22px;
+		display: inline !important;
+		/* z-index: -10 !important;  */
+		margin-right: -15px;
+		border: none;
+		background: none;
+		outline: none;
+		/* float: left; */
+		padding: 0;
+		color: white;
+		font-size: 0.6rem;
+		transition: 0.4s;
+		line-height: 40px;
+		width: 120px;
+		border-radius: 40px;
+		background: #fff;
+	}
+	.mr-custom-mobile {
+		margin-right: 0px !important;
+	}
+	.ml-100 {
+		margin-left: 70px;
+	}
+	#recipe_container .topBtn {
+		color: #fff;
+		font-size: 8px;
+		font-weight: 600;
+		padding: 2px;
+		width: 100px;
+		border-radius: 5px;
+		background-color: #d3d3d3;
+	}
+	#details_container h6 {
+		font-size: 9px;
+		font-weight: 800;
+		color: #000;
+	}
+	#details_container p {
+		font-size: 8px;
+		font-weight: 800;
+		color: #58508d;
+	}
+	#social_btn {
+		position: absolute;
+		right: 20px;
+		/* top: 0; */
+		bottom: -3px;
+		background-color: #d3d3d3;
+		padding-bottom: 2px !important;
+		height: 22px;
+		border-radius: 20px;
+		width: 60px;
+	}
+	#scroll-container {
+		height: 70vh;
+		overflow-y: scroll;
+	}
+	#recipe_cards {
+		border-bottom-right-radius: 25px;
+		border-bottom-left-radius: 25px;
+	}
+	#recipe_cards span {
+		padding-right: 30px !important;
+		color: red;
+		font-size: 14px;
+		font-weight: 900 !important;
+	}
+	#recipe_cards span img {
+		padding-right: 0 !important;
+		width: 16px;
+		height: 16px;
+	}
+	#recipe_cards .card-body h5.card-title {
+		font-size: 20px;
+		font-weight: 800;
+		color: #58508d;
+	}
+	#recipe_cards .card-body p.card-text {
+		font-size: 14px;
+		font-weight: bold;
+		color: #000;
+	}
+	.d-hidden-320 {
+		display: none;
+	}
+	.heading {
+		font-size: 25px;
+		padding-left: 50px;
+		font-weight: 800;
+		margin-top: -14px;
+		color: #000 ! important;
+	}
+	.animated-span {
+		font-size: 25px;
+		padding-left: 40px;
+		font-weight: 800;
+		cursor: pointer;
+		position: relative;
+		display: inline-block;
+		background: linear-gradient(to bottom, #000, #000 60%, #fff 60%, #fff 100%);
+		background-clip: text;
+		-webkit-background-clip: text;
+		color: #000;
+		background-repeat: no-repeat;
+		white-space: nowrap;
+	}
+	.animated-span:before {
+		content: "";
+		position: absolute;
+		left: 40px;
+		right: 0;
+		height: 10px;
+		background: #FFA600;
+		bottom: 20px;
+		z-index: -1;
+		/* transition: all 0.2s ease-out; */
+	  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+	/* New Css */
+    .overflow_container {
+        width: inherit;
+        height: inherit;
+        overflow-y: scroll !important;
+        }
+
+    button.open-button {
+        width: 70px !important;
+        height: 70px !important;
+        background-color:#58508D !important;
+        padding: 10px 16px;
+        border-radius: 80px !important;
+        font-size: 24px;
+        line-height: 1.33;
+    }
+    button.open-button img {
+        width: 32px !important;
+        height: 36px !important;
+        line-height: 1.33;
+        
+    } 
+    .position_chat {
+        position: fixed;
+        bottom: 290px;
+        right: 28px;
+        display: none;
+        z-index: 9999;
+        
+    }
+    #chat_widget {
+        zoom: 80% !important;
+        height: 70vh !important;
+        width: 420px !important;
+    }
+    .form__field {
+        width: 260px;
+    }
+    /* New Css Ends here */
+	/* Search Component */
+	.d-hidden-425 {
+		display: none;
+	}
+	::-webkit-scrollbar {
+		width: 5px;
+		height: 8px;
+		border: 1px solid #d5d5d5;
+	}
+
+	::-webkit-scrollbar-track {
+		border-radius: 10px;
+		background: #eeeeee;
+	}
+
+	::-webkit-scrollbar-thumb {
+		border-radius: 10px;
+		width: 10px !important;
+		height: 8px;
+		background: #58508d;
+	}
+	
+	/* div.card {
+		zoom: 70% !important;
+	} */
+	#recipe_container h4.heading {
+		font-size: 14px;
+		font-weight: 800;
+	}
+	.searchButton {
+		position: relative;
+		right: 0;
+		color: white;
+		float: right;
+		width: 35px;
+		height: 35px;
+		border-radius: 50%;
+		background: #ffa600;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: 0.4s;
+		border: none;
+	}
+	.searchInput {
+		height: 22px;
+		margin-right: -25px;
+		border: none;
+		background: none;
+		outline: none;
+		padding: 0;
+		color: white;
+		font-size: 0.6rem;
+		transition: 0.4s;
+		line-height: 40px;
+		width: 120px;
+		border-radius: 40px;
+		background: #fff;
+	}
+	.ml-100 {
+		margin-left: 100px;
+	}
+	#recipe_container .topBtn {
+		color: #fff;
+		font-size: 11px;
+		font-weight: 700;
+		padding: 2px;
+		width: 160px;
+		border-radius: 5px;
+		background-color: #d3d3d3;
+	}
+	#details_container h6 {
+		font-size: 9px;
+		font-weight: 800;
+		color: #000;
+	}
+	#details_container p {
+		font-size: 8px;
+		font-weight: 800;
+		color: #58508d;
+	}
+	#social_btn {
+		position: absolute;
+		right: 20px;
+		top: 0;
+		background-color: #d3d3d3;
+		padding-bottom: 5px !important;
+		height: 22px;
+		border-radius: 20px;
+		width: 80px;
+	}
+	#scroll-container {
+		height: 70vh;
+		overflow-y: scroll;
+	}
+	#recipe_cards {
+		border-bottom-right-radius: 25px;
+		border-bottom-left-radius: 25px;
+	}
+	#recipe_cards span {
+		padding-right: 30px !important;
+		color: red;
+		font-size: 14px;
+		font-weight: 900 !important;
+	}
+	#recipe_cards span img {
+		padding-right: 0 !important;
+		width: 16px;
+		height: 16px;
+	}
+	#recipe_cards .card-body h5.card-title {
+		font-size: 20px;
+		font-weight: 800;
+		color: #58508d;
+	}
+	#recipe_cards .card-body p.card-text {
+		font-size: 16px;
+		font-weight: bold;
+		color: #000;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+	/* New Css */
+	.overflow_container {
+		width: inherit;
+		height: inherit;
+		overflow-y: scroll !important;
+	}
+
+	button.open-button {
+		width: 70px !important;
+		height: 70px !important;
+		background-color:#58508D !important;
+		padding: 10px 16px;
+		border-radius: 80px !important;
+		font-size: 24px;
+		line-height: 1.33;
+	}
+	button.open-button img {
+		width: 32px !important;
+		height: 36px !important;
+		line-height: 1.33;
+		
+	} 
+	.position_chat {
+		position: fixed;
+		bottom: 270px;
+		right: 28px;
+		display: none;
+		z-index: 9999;
+		
+	}
+	.form__field {
+        width: 260px;
+    }
+	#chat_widget {
+		zoom: 80% !important;
+		height: 70vh !important;
+		width: 420px !important;
+	}
+	/* New Css Ends here */
+	.d-hidden-425 {
+		display: none;
+	}
+	div.card {
+		zoom: 70% !important;
+	}
+	.p-viewport-devices {
+		padding-left: 60px !important;
+		margin-top: 0;
+		padding-right: 20px !important;
+		padding-bottom: 0;
+	}
+	::-webkit-scrollbar {
+		width: 5px;
+		height: 8px;
+		border: 1px solid #d5d5d5;
+	}
+
+	::-webkit-scrollbar-track {
+		border-radius: 10px;
+		background: #eeeeee;
+	}
+
+	::-webkit-scrollbar-thumb {
+		border-radius: 10px;
+		width: 10px !important;
+		height: 8px;
+		background: #58508d;
+	}
+	.d-xxl-vis {
+		display: block !important;
+	}
+	.d-xxl-hidd {
+		display: none !important;
+	}
+	/* .container {
+		max-width: 1350px;
+	} */
+	#recipe_container h4.heading {
+		font-size: 18px;
+		font-weight: 800;
+	}
+	.searchButton {
+		position: relative;
+		right: 0;
+		color: white;
+		float: right;
+		width: 35px;
+		height: 35px;
+		border-radius: 50%;
+		background: #ffa600;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: 0.4s;
+		border: none;
+		/* z-index: 1 !important;  */
+	}
+	.searchInput {
+		height: 22px;
+		/* z-index: -10 !important;  */
+		margin-right: -25px;
+		border: none;
+		background: none;
+		outline: none;
+		/* float: left; */
+		padding: 0;
+		color: white;
+		font-size: 0.6rem;
+		transition: 0.4s;
+		line-height: 40px;
+		width: 120px;
+		border-radius: 40px;
+		background: #fff;
+	}
+	.ml-100 {
+		margin-left: 105px;
+	}
+	#recipe_container .topBtn {
+		color: #fff;
+		font-size: 11px;
+		font-weight: 700;
+		padding: 2px;
+		width: 160px;
+		border-radius: 5px;
+		background-color: #d3d3d3;
+	}
+	#details_container h6 {
+		font-size: 10px;
+		font-weight: 800;
+		color: #000;
+	}
+	#details_container p {
+		font-size: 9px;
+		font-weight: 800;
+		color: #58508d;
+	}
+	#social_btn {
+		position: absolute;
+		right: 20px;
+		top: 0;
+		background-color: #d3d3d3;
+		padding: 3px;
+		height: 30px;
+		border-radius: 20px;
+		width: 100px;
+	}
+	#scroll-container {
+		height: 70vh;
+		overflow-y: scroll;
+	}
+	#recipe_cards {
+		border-bottom-right-radius: 25px;
+		border-bottom-left-radius: 25px;
+	}
+	#recipe_cards img {
+		height: 130px;
+		width: 100%;
+	}
+	#recipe_cards span {
+		padding-right: 10px !important;
+		color: red;
+		font-size: 14px;
+		font-weight: 900 !important;
+	}
+	#recipe_cards span img {
+		width: 15px;
+		height: 15px;
+	}
+	#recipe_cards .card-body h5.card-title {
+		font-size: 16px;
+		font-weight: 800;
+		color: #58508d;
+	}
+	#recipe_cards .card-body p.card-text {
+		font-size: 12px;
+		font-weight: bold;
+		color: #000;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+	 /* New Css */
+	 .overflow_container {
+		width: inherit;
+		height: inherit;
+		overflow-y: scroll !important;
+		}
+	
+		button.open-button {
+			width: 70px !important;
+			height: 70px !important;
+			background-color:#58508D !important;
+			padding: 10px 16px;
+			border-radius: 80px !important;
+			font-size: 24px;
+			line-height: 1.33;
+		}
+		button.open-button img {
+			width: 32px !important;
+			height: 36px !important;
+			line-height: 1.33;
+			
+		} 
+		.position_chat {
+			position: fixed;
+			bottom: 270px;
+			right: 28px;
+			display: none;
+			z-index: 9999;
+			
+		}
+		#chat_widget {
+			zoom: 80% !important;
+			height: 70vh !important;
+			width: 420px !important;
+		}
+		.form__field {
+			width: 260px;
+		}
+		/* New Css Ends here */
+	
+	.d-hidden-425 {
+		display: none;
+	}
+	.p-viewport-devices {
+		padding-left: 80px !important;
+		margin-top: 0;
+		padding-right: 40px !important;
+		padding-bottom: 0;
+	}
+	::-webkit-scrollbar {
+		width: 5px;
+		height: 8px;
+		border: 1px solid #d5d5d5;
+	}
+
+	::-webkit-scrollbar-track {
+		border-radius: 10px;
+		background: #eeeeee;
+	}
+
+	::-webkit-scrollbar-thumb {
+		border-radius: 10px;
+		width: 10px !important;
+		height: 8px;
+		background: #58508d;
+	}
+	.d-xxl-vis {
+		display: block !important;
+	}
+	.d-xxl-hidd {
+		display: none !important;
+	}
+	div.card {
+		zoom: 70% !important;
+	}
+	#recipe_container h4.heading {
+		font-size: 22px;
+		font-weight: 800;
+	}
+	.searchButton {
+		position: relative;
+		right: 0;
+		color: white;
+		float: right;
+		width: 35px;
+		height: 35px;
+		border-radius: 50%;
+		background: #ffa600;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: 0.4s;
+		border: none;
+		/* z-index: 1 !important;  */
+	}
+	.searchInput {
+		height: 22px;
+		/* z-index: -10 !important;  */
+		margin-right: -25px;
+		border: none;
+		background: none;
+		outline: none;
+		/* float: left; */
+		padding: 0;
+		color: white;
+		font-size: 0.6rem;
+		transition: 0.4s;
+		line-height: 40px;
+		width: 120px;
+		border-radius: 40px;
+		background: #fff;
+	}
+	.ml-100 {
+		margin-left: 115px;
+	}
+	#recipe_container .topBtn {
+		color: #fff;
+		font-size: 11px;
+		font-weight: 700;
+		padding: 2px;
+		width: 160px;
+		border-radius: 5px;
+		background-color: #d3d3d3;
+	}
+	#details_container h6 {
+		font-size: 13px;
+		font-weight: 800;
+		color: #000;
+	}
+	#details_container p {
+		font-size: 11px;
+		font-weight: 800;
+		color: #58508d;
+	}
+	#social_btn {
+		position: absolute;
+		right: 70px;
+		top: 0;
+		background-color: #d3d3d3;
+		padding: 3px;
+		height: 30px;
+		border-radius: 20px;
+		width: 100px;
+	}
+	#scroll-container {
+		height: 70vh;
+		overflow-y: scroll;
+	}
+	#recipe_cards {
+		border-bottom-right-radius: 25px;
+		border-bottom-left-radius: 25px;
+	}
+	#recipe_cards img {
+		height: 130px;
+		width: 100%;
+	}
+	#recipe_cards span {
+		padding-right: 10px !important;
+		color: red;
+		font-size: 18px;
+		font-weight: 900 !important;
+	}
+	#recipe_cards span img {
+		width: 15px;
+		height: 15px;
+	}
+	#recipe_cards .card-body h5.card-title {
+		font-size: 23px;
+		font-weight: 800;
+		color: #58508d;
+	}
+	#recipe_cards .card-body p.card-text {
+		font-size: 16px;
+		font-weight: bold;
+		color: #000;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1599px) {
+	/* New Css */
+	.overflow_container {
+        width: inherit;
+        height: inherit;
+        overflow-y: scroll !important;
+    }
+    
+    button.open-button {
+		width: 70px !important;
+        height: 70px !important;
+        background-color:#58508D !important;
+        padding: 10px 16px;
+        border-radius: 80px !important;
+        font-size: 24px;
+        line-height: 1.33;
+    }
+    button.open-button img {
+		width: 32px !important;
+        height: 36px !important;
+        line-height: 1.33;
+        
+    } 
+    .position_chat {
+        position: fixed;
+        bottom: 270px;
+        right: 28px;
+        display: none;
+        z-index: 9999;
+        
+	}
+	.form__field {
+        width: 260px;
+    }
+	#chat_widget {
+        zoom: 80% !important;
+        height: 70vh !important;
+        width: 420px !important;
+    }
+    /* New Css Ends here */
+	.d-hidden-425 {
+		display: none;
+	}
+	.p-viewport-devices {
+		padding-left: 80px !important;
+		margin-top: 0;
+		padding-right: 40px !important;
+		padding-bottom: 0;
+	}
+	::-webkit-scrollbar {
+		width: 5px;
+		height: 8px;
+		border: 1px solid #d5d5d5;
+	}
+
+	::-webkit-scrollbar-track {
+		border-radius: 10px;
+		background: #eeeeee;
+	}
+
+	::-webkit-scrollbar-thumb {
+		border-radius: 10px;
+		width: 10px !important;
+		height: 8px;
+		background: #58508d;
+	}
+	.d-xxl-vis {
+		display: block !important;
+	}
+	.d-xxl-hidd {
+		display: none !important;
+	}
+	/* .container {
+		max-width: 1350px;
+	} */
+	div.card {
+		zoom: 70% !important;
+	}
+	#recipe_container h4.heading {
+		font-size: 22px;
+		font-weight: 800;
+	}
+	.searchButton {
+		position: relative;
+		right: 0;
+		color: white;
+		float: right;
+		width: 35px;
+		height: 35px;
+		border-radius: 50%;
+		background: #ffa600;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: 0.4s;
+		border: none;
+		/* z-index: 1 !important;  */
+	}
+	.searchInput {
+		height: 22px;
+		/* z-index: -10 !important;  */
+		margin-right: -25px;
+		border: none;
+		background: none;
+		outline: none;
+		/* float: left; */
+		padding: 0;
+		color: white;
+		font-size: 0.6rem;
+		transition: 0.4s;
+		line-height: 40px;
+		width: 120px;
+		border-radius: 40px;
+		background: #fff;
+	}
+	.ml-100 {
+		margin-left: 115px;
+	}
+	#recipe_container .topBtn {
+		color: #fff;
+		font-size: 11px;
+		font-weight: 700;
+		padding: 2px;
+		width: 160px;
+		border-radius: 5px;
+		background-color: #d3d3d3;
+	}
+	#details_container h6 {
+		font-size: 13px;
+		font-weight: 800;
+		color: #000;
+	}
+	#details_container p {
+		font-size: 11px;
+		font-weight: 800;
+		color: #58508d;
+	}
+	#social_btn {
+		position: absolute;
+		right: 70px;
+		top: 0;
+		background-color: #d3d3d3;
+		padding: 3px;
+		height: 30px;
+		border-radius: 20px;
+		width: 100px;
+	}
+	#scroll-container {
+		height: 70vh;
+		overflow-y: scroll;
+	}
+	#recipe_cards {
+		border-bottom-right-radius: 25px;
+		border-bottom-left-radius: 25px;
+	}
+	#recipe_cards img {
+		height: 130px;
+		width: 100%;
+	}
+	#recipe_cards span {
+		padding-right: 10px !important;
+		color: red;
+		font-size: 18px;
+		font-weight: 900 !important;
+	}
+	#recipe_cards span img {
+		width: 15px;
+		height: 15px;
+	}
+	#recipe_cards .card-body h5.card-title {
+		font-size: 23px;
+		font-weight: 800;
+		color: #58508d;
+	}
+	#recipe_cards .card-body p.card-text {
+		font-size: 16px;
+		font-weight: bold;
+		color: #000;
+	}
+}
+
+/* For xxl Devices */
+@media (min-width: 1600px) {
+	 /* New Css */
+	 .overflow_container {
+        width: inherit;
+        height: inherit;
+        overflow-y: scroll !important;
+    }
+    .form__field {
+        width: 260px;
+    }
+    button.open-button {
+		width: 80px !important;
+        height: 80px !important;
+        background-color:#58508D !important;
+        padding: 10px 16px;
+        border-radius: 80px !important;
+        font-size: 24px;
+        line-height: 1.33;
+    }
+    button.open-button img {
+		width: 37px !important;
+        height: 40px !important;
+        line-height: 1.33;
+        
+    } 
+    .position_chat {
+        position: fixed;
+        bottom: 270px;
+        right: 28px;
+        display: none;
+        z-index: 9999;
+        
+    }
+	#chat_widget {
+        zoom: 90% !important;
+        height: 70vh !important;
+        width: 420px !important;
+    }
+    /* New Css Ends here */
+	
+	.d-hidden-425 {
+		display: none;
+	}
+	.p-viewport-devices {
+		padding-left: 10px !important;
+		margin-top: 0;
+		padding-right: 20px !important;
+		padding-bottom: 0;
+	}
+	::-webkit-scrollbar {
+		width: 5px;
+		height: 8px;
+		border: 1px solid #d5d5d5;
+	}
+
+	::-webkit-scrollbar-track {
+		border-radius: 10px;
+		background: #eeeeee;
+	}
+
+	::-webkit-scrollbar-thumb {
+		border-radius: 10px;
+		width: 10px !important;
+		height: 8px;
+		background: #58508d;
+	}
+	.d-xxl-vis {
+		display: block !important;
+	}
+	.d-xxl-hidd {
+		display: none !important;
+	}
+	/* .container {
+		max-width: 1350px;
+	} */
+	#recipe_container h4.heading {
+		font-size: 22px;
+		font-weight: 800;
+	}
+	.searchButton {
+		position: relative;
+		right: 0;
+		color: white;
+		float: right;
+		width: 35px;
+		height: 35px;
+		border-radius: 50%;
+		background: #ffa600;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: 0.4s;
+		border: none;
+		/* z-index: 1 !important;  */
+	}
+	.searchInput {
+		height: 22px;
+		/* z-index: -10 !important;  */
+		margin-right: -25px;
+		border: none;
+		background: none;
+		outline: none;
+		/* float: left; */
+		padding: 0;
+		color: white;
+		font-size: 0.6rem;
+		transition: 0.4s;
+		line-height: 40px;
+		width: 120px;
+		border-radius: 40px;
+		background: #fff;
+	}
+	.ml-100 {
+		margin-left: 115px;
+	}
+	#recipe_container .topBtn {
+		color: #fff;
+		font-size: 11px;
+		font-weight: 700;
+		padding: 2px;
+		width: 160px;
+		border-radius: 5px;
+		background-color: #d3d3d3;
+	}
+	#details_container h6 {
+		font-size: 13px;
+		font-weight: 800;
+		color: #000;
+	}
+	#details_container p {
+		font-size: 11px;
+		font-weight: 800;
+		color: #58508d;
+	}
+	#social_btn {
+		position: absolute;
+		right: 70px;
+		top: 0;
+		background-color: #d3d3d3;
+		padding: 3px;
+		height: 30px;
+		border-radius: 20px;
+		width: 100px;
+	}
+	#scroll-container {
+		height: 70vh;
+		overflow-y: scroll;
+	}
+	#recipe_cards {
+		border-bottom-right-radius: 25px;
+		border-bottom-left-radius: 25px;
+	}
+	#recipe_cards img {
+		height: 130px;
+		width: 100%;
+	}
+	#recipe_cards span {
+		padding-right: 10px !important;
+		color: red;
+		font-size: 18px;
+		font-weight: 900 !important;
+	}
+	#recipe_cards span img {
+		width: 15px;
+		height: 15px;
+	}
+	#recipe_cards .card-body h5.card-title {
+		font-size: 23px;
+		font-weight: 800;
+		color: #58508d;
+	}
+	#recipe_cards .card-body p.card-text {
+		font-size: 16px;
+		font-weight: bold;
+		color: #000;
+	}
+}

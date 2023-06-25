@@ -1,0 +1,1945 @@
+
+
+.gender_btn {
+    padding: 15px 25px !important;
+    color: #58508d !important;
+    font-weight: 600;
+    background-color: #fff !important;
+    border-radius: 0 !important;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.gender_btn-2 {
+    padding: 15px 25px !important;
+    color: #58508d !important;
+    background-color: #fff !important;
+    font-weight: 600;
+    border-radius: 0 !important;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.active-gender {
+    background-color: #58508d !important;
+    color: white !important;
+}
+
+.active-gender {
+    background-color: #58508d !important;
+    color: white !important;
+}
+
+.gender_btn i {
+    font-size: 40px;
+}
+
+.gender_btn-2 i {
+    font-size: 40px;
+}
+
+#thyroid_yes.active-1,
+#thyroid-2_yes.active-2,
+#thyroid-3_yes.active-3,
+#thyroid-4_yes.active-4 {
+    background-color: #667acd !important;
+    color: #fff !important;
+}
+
+#thyroid_no.active-1,
+#thyroid-2_no.active-2,
+#thyroid-3_no.active-3,
+#thyroid-4_no.active-4 {
+    background-color: #667acd !important;
+    color: #fff !important;
+}
+
+#thyroid_yes,
+#thyroid-2_yes,
+#thyroid-3_yes,
+#thyroid-4_yes {
+    border-radius: 200px !important;
+    width: 70px !important;
+    height: 30px;
+    background-color: #fff;
+    border: none;
+    color: #667ACD !important;
+    font-weight: bold;
+    box-shadow: 1px 2px #eae7e5;
+    /* text-shadow: 1px 0 #fff; */
+}
+
+#thyroid_no,
+#thyroid-2_no,
+#thyroid-3_no,
+#thyroid-4_no {
+    border-radius: 200px !important;
+    width: 70px !important;
+    height: 30px;
+    color: #667acd !important;
+    font-weight: 600;
+    background-color: #fff;
+    box-shadow: 1px 2px #eae7e5;
+    text-shadow: 1px 0 #fff;
+}
+
+
+/* #weekOne,
+#weekTwo,
+#weekThree,
+#weekFour,
+#weekFive {
+    border-radius: 200px !important;
+    width: 40px !important;
+    height: 40px;
+    color: #333;
+    background-color: #fff;
+    border: none;
+    font-weight: bold;
+    box-shadow: 4px 2px #eae7e5;
+    text-shadow: 1px 0 #fff;
+} */
+
+
+/* #weekTwo {
+    border-radius: 200px !important;
+    width: 40px !important;
+    height: 40px;
+    color: #333;
+    background-color: #fff;
+    border: none;
+    font-weight: bold;
+    box-shadow: 4px 2px #eae7e5;
+}
+
+#weekThree {
+    border-radius: 200px !important;
+    width: 40px !important;
+    height: 40px;
+    color: #333;
+    background-color: #fff;
+    border: none;
+    font-weight: bold;
+    box-shadow: 4px 2px #eae7e5;
+}
+
+#weekFour {
+    border-radius: 200px !important;
+    width: 40px !important;
+    height: 40px;
+    color: #333;
+    background-color: #fff;
+    border: none;
+    font-weight: bold;
+    box-shadow: 4px 2px #eae7e5;
+}
+
+#weekFive {
+    border-radius: 200px !important;
+    width: 40px !important;
+    height: 40px;
+    color: #333;
+    background-color: #fff;
+    border: none;
+    font-weight: bold;
+    box-shadow: 4px 2px #eae7e5;
+} */
+
+#weekOne.active-w,
+#weekTwo.active-w,
+#weekThree.active-w,
+#weekFour.active-w,
+#weekFive.active-w {
+    background-color: #58508d !important;
+    color: white !important;
+}
+
+.wrapper {
+    z-index: 8000;
+}
+
+
+.bg-white {
+    background-color: #fff;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.ml-40 {
+    margin-left: 40px !important;
+}
+
+.ml-80 {
+    margin-left: 80px;
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    #weekOne,
+    #weekTwo,
+    #weekThree,
+    #weekFour,
+    #weekFive {
+        border-radius: 200px !important;
+        width: 30px !important;
+        height: 30px;
+        color: #333;
+        background-color: #fff;
+        border: none;
+        font-size: 14px !important;
+        font-weight: bold;
+        box-shadow: 4px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    }
+    #badge_container span {
+        position: absolute;
+        right: 65px;
+        top: 20px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 7px;
+        padding: 4px;
+        border-radius: 0 !important;
+        background-color: #D09123 !important;
+    }
+    /* New Css */
+    .overflow_container {
+        width: inherit;
+        height: inherit;
+        overflow-y: scroll !important;
+    }
+    button.open-button {
+        width: 70px !important;
+        height: 70px !important;
+        background-color: #58508D !important;
+        padding: 10px 16px;
+        border-radius: 80px !important;
+        font-size: 24px;
+        line-height: 1.33;
+    }
+    button.open-button img {
+        width: 32px !important;
+        height: 36px !important;
+        line-height: 1.33;
+    }
+    .position_chat {
+        position: fixed;
+        bottom: 120px;
+        display: none;
+        z-index: 9998;
+    }
+    .btn--primary {
+        padding: 5px 5px !important;
+        z-index: 9999 !important;
+    }
+    .btn--inside {
+        margin-left: -26px !important;
+    }
+    #chat_widget {
+        zoom: 100% !important;
+        height: 85vh !important;
+        width: 100% !important;
+    }
+    #chat_widget .card-header {
+        border-radius: 0 !important;
+    }
+    .form__field {
+        width: 210px !important;
+    }
+    .card ul.list-group li.list-group-item .row .col-10 p {
+        font-size: 11px !important;
+        color: #000;
+        /* padding: 5px; */
+    }
+    /* New Css Ends here */
+    .ml-100 {
+        margin-left: 60px;
+    }
+    .searchButton {
+        position: relative;
+        right: 0;
+        top: 5px;
+        color: white;
+        float: right;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #ffa600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        border: none;
+        /* z-index: 1 !important;  */
+    }
+    .searchInput {
+        height: 22px;
+        display: inline !important;
+        /* z-index: -10 !important;  */
+        margin-right: -15px;
+        border: none;
+        background: none;
+        outline: none;
+        /* float: left; */
+        padding: 0;
+        color: white;
+        font-size: 0.6rem;
+        transition: 0.4s;
+        line-height: 40px;
+        width: 60px;
+        border-radius: 40px;
+        background: #fff;
+    }
+    .mr-custom-mobile {
+        margin-right: 0px !important;
+    }
+    .p-viewport-devices {
+        padding-left: 10px !important;
+        margin-top: 0;
+        padding-right: 10px !important;
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    .custom_height {
+        height: 220px !important;
+        width: 130px;
+    }
+    /* Profile Section CSS */
+    div#profile .card .card-body h5 {
+        font-weight: 800;
+        font-size: 0.7rem;
+        text-align: center;
+        margin-top: 30px;
+    }
+    div#profile .card .card-body h6 {
+        font-weight: 800;
+        font-size: 0.6rem;
+        text-align: center;
+        margin-top: 10px;
+    }
+    div#profile .card .card-body p {
+        font-weight: 800;
+        font-size: 0.5rem;
+        text-align: center;
+    }
+    div#nav-tabContent .tab-pane h2 {
+        padding-top: 30px;
+        font-weight: 900;
+        font-size: 14px;
+    }
+    nav a {
+        font-size: 12px;
+    }
+    div#nav-tabContent .tab-pane p {
+        font-size: 14px;
+    }
+    #defination_s h5 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    form#lifestyle_tab input {
+        border: 2px solid #003f5c !important;
+        background: #faf7f5;
+        height: 60px;
+    }
+    #custom_border_text {
+        position: absolute;
+        top: -11px;
+        left: 23px;
+        background: #faf7f5;
+        font-weight: 600;
+        width: 100px;
+        text-align: center;
+    }
+    form#personal_tab input {
+        border: 2px solid #003f5c !important;
+        background: #faf7f5;
+        height: 50px;
+    }
+    nav .nav-tabs a {
+        width: 30%;
+    }
+    form#lifestyle_tab .form-group input.shots {
+        width: 100%;
+    }
+    #custom_border_text_lifestyle {
+        position: absolute;
+        top: -11px;
+        left: 23px;
+        background: #faf7f5;
+        font-weight: 600;
+        width: 150px;
+        text-align: center;
+    }
+    /* Lifestyle container Padding */
+    .sectionPadding {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+    #weekOne,
+    #weekTwo,
+    #weekThree,
+    #weekFour,
+    #weekFive {
+        border-radius: 200px !important;
+        width: 30px !important;
+        height: 30px;
+        color: #333;
+        background-color: #fff;
+        border: none;
+        font-size: 14px !important;
+        font-weight: bold;
+        box-shadow: 4px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    }
+    #badge_container span {
+        position: absolute;
+        right: 80px;
+        top: 20px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 8px;
+        padding: 3px;
+        border-radius: 0 !important;
+        background-color: #D09123 !important;
+    }
+    /* New Css */
+    .overflow_container {
+        width: inherit;
+        height: inherit;
+        overflow-y: scroll !important;
+    }
+    button.open-button {
+        width: 70px !important;
+        height: 70px !important;
+        background-color: #58508D !important;
+        padding: 10px 16px;
+        border-radius: 80px !important;
+        font-size: 24px;
+        line-height: 1.33;
+    }
+    button.open-button img {
+        width: 32px !important;
+        height: 36px !important;
+        line-height: 1.33;
+    }
+    .position_chat {
+        position: fixed;
+        bottom: 120px;
+        display: none;
+        z-index: 9998;
+    }
+    .btn--primary {
+        padding: 5px 5px !important;
+        z-index: 9999 !important;
+    }
+    .btn--inside {
+        margin-left: -26px;
+    }
+    #chat_widget {
+        zoom: 100% !important;
+        height: 85vh;
+        width: 100% !important;
+    }
+    #chat_widget .card-header {
+        border-radius: 0 !important;
+    }
+    .form__field {
+        width: 245px !important;
+    }
+    .card ul.list-group li.list-group-item .row .col-10 p {
+        font-size: 12px;
+        color: #000;
+    }
+    /* New Css Ends here */
+    .ml-100 {
+        margin-left: 60px;
+    }
+    .searchButton {
+        position: relative;
+        right: 0;
+        top: 5px;
+        color: white;
+        float: right;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #ffa600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        border: none;
+        /* z-index: 1 !important;  */
+    }
+    .searchInput {
+        height: 22px;
+        display: inline !important;
+        /* z-index: -10 !important;  */
+        margin-right: -15px;
+        border: none;
+        background: none;
+        outline: none;
+        /* float: left; */
+        padding: 0;
+        color: white;
+        font-size: 0.6rem;
+        transition: 0.4s;
+        line-height: 40px;
+        width: 60px;
+        border-radius: 40px;
+        background: #fff;
+    }
+    .mr-custom-mobile {
+        margin-right: 0px !important;
+    }
+    .p-viewport-devices {
+        padding-left: 20px !important;
+        margin-top: 0;
+        padding-right: 20px !important;
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    .custom_height {
+        height: 260px !important;
+        width: 140px;
+    }
+    /* Profile Section CSS */
+    div#profile .card .card-body h5 {
+        font-weight: 800;
+        font-size: 1.4rem;
+        text-align: center;
+        margin-top: 30px;
+    }
+    div#profile .card .card-body h6 {
+        font-weight: 800;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 10px;
+    }
+    div#profile .card .card-body p {
+        font-weight: 800;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+    div#nav-tabContent .tab-pane h2 {
+        padding-top: 30px;
+        font-weight: 900;
+    }
+    div#nav-tabContent .tab-pane p {
+        font-size: 14px;
+    }
+    #defination_s h5 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    button.profile_page {
+        border-radius: 200px !important;
+        width: 130px !important;
+        height: 40px;
+        background-color: #667acd;
+        border: none;
+        font-weight: bold;
+        box-shadow: 1px 2px #eae7e5;
+        /* text-shadow: 1px 0 #fff; */
+    }
+    button.profile_page_second {
+        border-radius: 200px !important;
+        width: 130px !important;
+        color: #667acd;
+        font-weight: 600;
+        height: 40px;
+        box-shadow: 1px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    }
+    /* #rounded_btn button {
+        border-radius: 200px !important;
+        width: 40px !important;
+        height: 40px;
+        color: #333;
+        background-color: #fff;
+        border: none;
+        font-weight: bold;
+        box-shadow: 4px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    } */
+    form#lifestyle_tab input {
+        border: 2px solid #003f5c !important;
+        background: #faf7f5;
+        height: 60px;
+    }
+    #custom_border_text {
+        position: absolute;
+        top: -11px;
+        left: 23px;
+        background: #faf7f5;
+        font-weight: 600;
+        width: 100px;
+        text-align: center;
+    }
+    form#personal_tab input {
+        border: 2px solid #003f5c !important;
+        background: #faf7f5;
+        height: 50px;
+    }
+    form#lifestyle_tab .form-group input.shots {
+        width: 100%;
+    }
+    #custom_border_text_lifestyle {
+        position: absolute;
+        top: -11px;
+        left: 23px;
+        background: #faf7f5;
+        font-weight: 600;
+        width: 150px;
+        text-align: center;
+    }
+    /* Lifestyle container Padding */
+    .sectionPadding {
+        padding: 10px;
+    }
+    #thyroid_yes {
+        border-radius: 200px !important;
+        width: 70px !important;
+        height: 30px;
+        background-color: #fff;
+        border: none;
+        color: #667ACD !important;
+        font-weight: bold;
+        box-shadow: 1px 2px #eae7e5;
+        /* text-shadow: 1px 0 #fff; */
+    }
+    #thyroid_no {
+        border-radius: 200px !important;
+        width: 70px !important;
+        height: 30px;
+        color: #667acd !important;
+        font-weight: 600;
+        background-color: #fff;
+        box-shadow: 1px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 575px) {
+    #weekOne,
+    #weekTwo,
+    #weekThree,
+    #weekFour,
+    #weekFive {
+        border-radius: 200px !important;
+        width: 30px !important;
+        height: 30px;
+        color: #333;
+        background-color: #fff;
+        border: none;
+        font-size: 14px !important;
+        font-weight: bold;
+        box-shadow: 4px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    }
+    #badge_container span {
+        position: absolute;
+        right: 100px;
+        top: 20px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 9px;
+        padding: 5px;
+        border-radius: 0 !important;
+        background-color: #D09123 !important;
+    }
+    /* New Css */
+    .overflow_container {
+        width: inherit;
+        height: inherit;
+        overflow-y: scroll !important;
+    }
+    button.open-button {
+        width: 70px !important;
+        height: 70px !important;
+        background-color: #58508D !important;
+        padding: 10px 16px;
+        border-radius: 80px !important;
+        font-size: 24px;
+        line-height: 1.33;
+    }
+    button.open-button img {
+        width: 32px !important;
+        height: 36px !important;
+        line-height: 1.33;
+    }
+    .position_chat {
+        position: fixed;
+        bottom: 120px;
+        display: none;
+        z-index: 9998;
+    }
+    .btn--primary {
+        padding: 5px 5px !important;
+        z-index: 9999 !important;
+    }
+    .btn--inside {
+        margin-left: -50px;
+    }
+    #chat_widget {
+        zoom: 100% !important;
+        height: 85vh;
+        width: 100% !important;
+    }
+    #chat_widget .card-header {
+        border-radius: 0 !important;
+    }
+    .form__field {
+        width: 270px !important;
+    }
+    .card ul.list-group li.list-group-item .row .col-10 p {
+        font-size: 12px;
+        color: #000;
+    }
+    /* New Css Ends here */
+    .ml-100 {
+        margin-left: 80px;
+    }
+    .searchButton {
+        position: relative;
+        right: 0;
+        top: 5px;
+        color: white;
+        float: right;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #ffa600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        border: none;
+        /* z-index: 1 !important;  */
+    }
+    .searchInput {
+        height: 22px;
+        display: inline !important;
+        /* z-index: -10 !important;  */
+        margin-right: -15px;
+        border: none;
+        background: none;
+        outline: none;
+        /* float: left; */
+        padding: 0;
+        color: white;
+        font-size: 0.6rem;
+        transition: 0.4s;
+        line-height: 40px;
+        width: 120px;
+        border-radius: 40px;
+        background: #fff;
+    }
+    .mr-custom-mobile {
+        margin-right: 0px !important;
+    }
+    .p-viewport-devices {
+        padding-left: 20px !important;
+        margin-top: 0;
+        padding-right: 20px !important;
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    .custom_height {
+        height: 300px !important;
+        width: 160px;
+    }
+    /* Profile Section CSS */
+    div#profile .card .card-body h5 {
+        font-weight: 800;
+        font-size: 1.4rem;
+        text-align: center;
+        margin-top: 30px;
+    }
+    div#profile .card .card-body h6 {
+        font-weight: 800;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 10px;
+    }
+    div#profile .card .card-body p {
+        font-weight: 800;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+    div#nav-tabContent .tab-pane h2 {
+        padding-top: 30px;
+        font-weight: 900;
+    }
+    div#nav-tabContent .tab-pane p {
+        font-size: 14px;
+    }
+    #defination_s h5 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    button.profile_page {
+        border-radius: 200px !important;
+        width: 130px !important;
+        height: 40px;
+        background-color: #667acd;
+        border: none;
+        font-weight: bold;
+        box-shadow: 1px 2px #eae7e5;
+        /* text-shadow: 1px 0 #fff; */
+    }
+    button.profile_page_second {
+        border-radius: 200px !important;
+        width: 130px !important;
+        color: #667acd;
+        font-weight: 600;
+        height: 40px;
+        box-shadow: 1px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    }
+    /* #rounded_btn button {
+        border-radius: 200px !important;
+        width: 40px !important;
+        height: 40px;
+        color: #333;
+        background-color: #fff;
+        border: none;
+        font-weight: bold;
+        box-shadow: 4px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    } */
+    form#lifestyle_tab input {
+        border: 2px solid #003f5c !important;
+        background: #faf7f5;
+        height: 60px;
+    }
+    #custom_border_text {
+        position: absolute;
+        top: -11px;
+        left: 23px;
+        background: #faf7f5;
+        font-weight: 600;
+        width: 100px;
+        text-align: center;
+    }
+    form#personal_tab input {
+        border: 2px solid #003f5c !important;
+        background: #faf7f5;
+        height: 50px;
+    }
+    form#lifestyle_tab .form-group input.shots {
+        width: 100%;
+    }
+    #custom_border_text_lifestyle {
+        position: absolute;
+        top: -11px;
+        left: 23px;
+        background: #faf7f5;
+        font-weight: 600;
+        width: 150px;
+        text-align: center;
+    }
+    /* Lifestyle container Padding */
+    .sectionPadding {
+        padding: 10px;
+    }
+    #thyroid_yes {
+        border-radius: 200px !important;
+        width: 70px !important;
+        height: 30px;
+        background-color: #fff;
+        border: none;
+        color: #667ACD !important;
+        font-weight: bold;
+        box-shadow: 1px 2px #eae7e5;
+        /* text-shadow: 1px 0 #fff; */
+    }
+    #thyroid_no {
+        border-radius: 200px !important;
+        width: 70px !important;
+        height: 30px;
+        color: #667acd !important;
+        font-weight: 600;
+        background-color: #fff;
+        box-shadow: 1px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #weekOne,
+    #weekTwo,
+    #weekThree,
+    #weekFour,
+    #weekFive {
+        border-radius: 200px !important;
+        width: 30px !important;
+        height: 30px;
+        color: #333;
+        background-color: #fff;
+        border: none;
+        font-size: 14px !important;
+        font-weight: bold;
+        box-shadow: 4px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    }
+    #badge_container span {
+        position: absolute;
+        right: 170px;
+        top: 20px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 9px;
+        padding: 5px;
+        border-radius: 0 !important;
+        background-color: #D09123 !important;
+    }
+    /* New Css */
+    .overflow_container {
+        width: inherit;
+        height: inherit;
+        overflow-y: scroll !important;
+    }
+    button.open-button {
+        width: 70px !important;
+        height: 70px !important;
+        background-color: #58508D !important;
+        padding: 10px 16px;
+        border-radius: 80px !important;
+        font-size: 24px;
+        line-height: 1.33;
+    }
+    button.open-button img {
+        width: 32px !important;
+        height: 36px !important;
+        line-height: 1.33;
+    }
+    .position_chat {
+        position: fixed;
+        bottom: 290px;
+        right: 28px;
+        display: none;
+        z-index: 9999;
+    }
+    #chat_widget {
+        zoom: 80% !important;
+        height: 70vh !important;
+        width: 420px !important;
+    }
+    .form__field {
+        width: 260px;
+    }
+    /* New Css Ends here */
+    .ml-100 {
+        margin-left: 80px;
+    }
+    .searchButton {
+        position: relative;
+        right: 0;
+        top: 5px;
+        color: white;
+        float: right;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #ffa600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        border: none;
+        /* z-index: 1 !important;  */
+    }
+    .searchInput {
+        height: 22px;
+        display: inline !important;
+        /* z-index: -10 !important;  */
+        margin-right: -15px;
+        border: none;
+        background: none;
+        outline: none;
+        /* float: left; */
+        padding: 0;
+        color: white;
+        font-size: 0.6rem;
+        transition: 0.4s;
+        line-height: 40px;
+        width: 120px;
+        border-radius: 40px;
+        background: #fff;
+    }
+    .mr-custom-mobile {
+        margin-right: 0px !important;
+    }
+    .mr-custom-mobile {
+        margin-right: 0px !important;
+    }
+    .p-viewport-devices {
+        padding-left: 50px !important;
+        margin-top: 0;
+        padding-right: 50px !important;
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    .custom_height {
+        height: 300px !important;
+        width: 220px;
+    }
+    /* Profile Section CSS */
+    div#profile .card .card-body h5 {
+        font-weight: 800;
+        font-size: 1.4rem;
+        text-align: center;
+        margin-top: 30px;
+    }
+    div#profile .card .card-body h6 {
+        font-weight: 800;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 10px;
+    }
+    div#profile .card .card-body p {
+        font-weight: 800;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+    div#nav-tabContent .tab-pane h2 {
+        padding-top: 30px;
+        font-weight: 900;
+    }
+    div#nav-tabContent .tab-pane p {
+        font-size: 14px;
+    }
+    #defination_s h5 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    /* #rounded_btn button {
+        border-radius: 200px !important;
+        width: 40px !important;
+        height: 40px;
+        color: #333;
+        background-color: #fff;
+        border: none;
+        font-weight: bold;
+        box-shadow: 4px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    } */
+    form#lifestyle_tab input {
+        border: 2px solid #003f5c !important;
+        background: #faf7f5;
+        height: 60px;
+    }
+    #custom_border_text {
+        position: absolute;
+        top: -11px;
+        left: 23px;
+        background: #faf7f5;
+        font-weight: 600;
+        width: 100px;
+        text-align: center;
+    }
+    form#personal_tab input {
+        border: 2px solid #003f5c !important;
+        background: #faf7f5;
+        height: 50px;
+    }
+    form#lifestyle_tab .form-group input.shots {
+        width: 100%;
+    }
+    #custom_border_text_lifestyle {
+        position: absolute;
+        top: -11px;
+        left: 23px;
+        background: #faf7f5;
+        font-weight: 600;
+        width: 150px;
+        text-align: center;
+    }
+    /* Lifestyle container Padding */
+    .sectionPadding {
+        padding: 10px;
+    }
+    #thyroid_yes {
+        border-radius: 200px !important;
+        width: 70px !important;
+        height: 30px;
+        background-color: #fff;
+        border: none;
+        color: #667ACD !important;
+        font-weight: bold;
+        box-shadow: 1px 2px #eae7e5;
+        /* text-shadow: 1px 0 #fff; */
+    }
+    #thyroid_no {
+        border-radius: 200px !important;
+        width: 70px !important;
+        height: 30px;
+        color: #667acd !important;
+        font-weight: 600;
+        background-color: #fff;
+        box-shadow: 1px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #weekOne,
+    #weekTwo,
+    #weekThree,
+    #weekFour,
+    #weekFive {
+        border-radius: 200px !important;
+        width: 30px !important;
+        height: 30px;
+        color: #333;
+        background-color: #fff;
+        border: none;
+        font-size: 14px !important;
+        font-weight: bold;
+        box-shadow: 4px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    }
+    #badge_container span {
+        position: absolute;
+        right: 30px;
+        top: 20px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 9px;
+        padding: 5px;
+        border-radius: 0 !important;
+        background-color: #D09123 !important;
+    }
+    /* New Css */
+    .overflow_container {
+        width: inherit;
+        height: inherit;
+        overflow-y: scroll !important;
+    }
+    button.open-button {
+        width: 70px !important;
+        height: 70px !important;
+        background-color: #58508D !important;
+        padding: 10px 16px;
+        border-radius: 80px !important;
+        font-size: 24px;
+        line-height: 1.33;
+    }
+    button.open-button img {
+        width: 32px !important;
+        height: 36px !important;
+        line-height: 1.33;
+    }
+    .position_chat {
+        position: fixed;
+        bottom: 270px;
+        right: 28px;
+        display: none;
+        z-index: 9999;
+    }
+    #chat_widget {
+        zoom: 80% !important;
+        height: 70vh !important;
+        width: 420px !important;
+    }
+    /* New Css Ends here */
+    .ml-100 {
+        margin-left: 100px;
+    }
+    .searchButton {
+        position: relative;
+        right: 0;
+        color: white;
+        float: right;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background: #ffa600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        border: none;
+        /* z-index: 1 !important;  */
+    }
+    .searchInput {
+        height: 22px;
+        /* z-index: -10 !important;  */
+        margin-right: -25px;
+        border: none;
+        background: none;
+        outline: none;
+        /* float: left; */
+        padding: 0;
+        color: white;
+        font-size: 0.6rem;
+        transition: 0.4s;
+        line-height: 40px;
+        width: 120px;
+        border-radius: 40px;
+        background: #fff;
+    }
+    .p-viewport-devices {
+        padding-left: 100px !important;
+        margin-top: 0;
+        padding-right: 100px !important;
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    .custom_height {
+        height: 300px !important;
+        width: 220px;
+    }
+    /* Profile Section CSS */
+    div#profile .card .card-body h5 {
+        font-weight: 800;
+        font-size: 1.4rem;
+        text-align: center;
+        margin-top: 30px;
+    }
+    div#profile .card .card-body h6 {
+        font-weight: 800;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 10px;
+    }
+    div#profile .card .card-body p {
+        font-weight: 800;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+    div#nav-tabContent .tab-pane h2 {
+        padding-top: 30px;
+        font-weight: 900;
+    }
+    div#nav-tabContent .tab-pane p {
+        font-size: 14px;
+    }
+    #defination_s h5 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    button.profile_page {
+        border-radius: 200px !important;
+        width: 130px !important;
+        height: 40px;
+        background-color: #667acd;
+        border: none;
+        font-weight: bold;
+        box-shadow: 1px 2px #eae7e5;
+        /* text-shadow: 1px 0 #fff; */
+    }
+    button.profile_page_second {
+        border-radius: 200px !important;
+        width: 130px !important;
+        color: #667acd;
+        font-weight: 600;
+        height: 40px;
+        box-shadow: 1px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    }
+    /* #rounded_btn button {
+        border-radius: 200px !important;
+        width: 40px !important;
+        height: 40px;
+        color: #333;
+        background-color: #fff;
+        border: none;
+        font-weight: bold;
+        box-shadow: 4px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    } */
+    form#lifestyle_tab input {
+        border: 2px solid #003f5c !important;
+        background: #faf7f5;
+        height: 60px;
+    }
+    #custom_border_text {
+        position: absolute;
+        top: -11px;
+        left: 23px;
+        background: #faf7f5;
+        font-weight: 600;
+        width: 100px;
+        text-align: center;
+    }
+    form#personal_tab input {
+        border: 2px solid #003f5c !important;
+        background: #faf7f5;
+        height: 50px;
+    }
+    form#lifestyle_tab .form-group input.shots {
+        width: 83%;
+    }
+    #custom_border_text_lifestyle {
+        position: absolute;
+        top: -11px;
+        left: 23px;
+        background: #faf7f5;
+        font-weight: 600;
+        width: 150px;
+        text-align: center;
+    }
+    /* Lifestyle container Padding */
+    .sectionPadding {
+        padding: 30px;
+    }
+    #thyroid_yes {
+        border-radius: 200px !important;
+        width: 70px !important;
+        height: 30px;
+        background-color: #fff;
+        border: none;
+        color: #667ACD !important;
+        font-weight: bold;
+        box-shadow: 1px 2px #eae7e5;
+        /* text-shadow: 1px 0 #fff; */
+    }
+    #thyroid_no {
+        border-radius: 200px !important;
+        width: 70px !important;
+        height: 30px;
+        color: #667acd !important;
+        font-weight: 600;
+        background-color: #fff;
+        box-shadow: 1px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #weekOne,
+    #weekTwo,
+    #weekThree,
+    #weekFour,
+    #weekFive {
+        border-radius: 200px !important;
+        width: 30px !important;
+        height: 30px;
+        color: #333;
+        background-color: #fff;
+        border: none;
+        font-size: 14px !important;
+        font-weight: bold;
+        box-shadow: 4px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    }
+    #badge_container span {
+        position: absolute;
+        right: 40px;
+        top: 30px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 9px;
+        padding: 5px;
+        border-radius: 0 !important;
+        background-color: #D09123 !important;
+    }
+    /* New Css */
+    .overflow_container {
+        width: inherit;
+        height: inherit;
+        overflow-y: scroll !important;
+    }
+    button.open-button {
+        width: 70px !important;
+        height: 70px !important;
+        background-color: #58508D !important;
+        padding: 10px 16px;
+        border-radius: 80px !important;
+        font-size: 24px;
+        line-height: 1.33;
+    }
+    button.open-button img {
+        width: 32px !important;
+        height: 36px !important;
+        line-height: 1.33;
+    }
+    .position_chat {
+        position: fixed;
+        bottom: 270px;
+        right: 28px;
+        display: none;
+        z-index: 9999;
+    }
+    #chat_widget {
+        zoom: 80% !important;
+        height: 70vh !important;
+        width: 420px !important;
+    }
+    /* New Css Ends here */
+    .ml-100 {
+        margin-left: 100px;
+    }
+    .searchButton {
+        position: relative;
+        right: 0;
+        color: white;
+        float: right;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background: #ffa600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        border: none;
+        /* z-index: 1 !important;  */
+    }
+    .searchInput {
+        height: 22px;
+        /* z-index: -10 !important;  */
+        margin-right: -25px;
+        border: none;
+        background: none;
+        outline: none;
+        /* float: left; */
+        padding: 0;
+        color: white;
+        font-size: 0.6rem;
+        transition: 0.4s;
+        line-height: 40px;
+        width: 120px;
+        border-radius: 40px;
+        background: #fff;
+    }
+    .p-viewport-devices {
+        padding-left: 100px !important;
+        margin-top: 0;
+        padding-right: 100px !important;
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    .custom_height {
+        height: 300px !important;
+        width: 280px;
+    }
+    /* Profile Section CSS */
+    div#profile .card .card-body h5 {
+        font-weight: 800;
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 10px;
+    }
+    div#profile .card .card-body h6 {
+        font-weight: 800;
+        font-size: 1.4rem;
+        text-align: center;
+        margin-top: 10px;
+    }
+    div#profile .card .card-body p {
+        font-weight: 800;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    div#nav-tabContent .tab-pane h2 {
+        padding-top: 30px;
+        font-weight: 900;
+    }
+    div#nav-tabContent .tab-pane p {
+        font-size: 14px;
+    }
+    #defination_s h5 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    button.profile_page {
+        border-radius: 200px !important;
+        width: 130px !important;
+        height: 40px;
+        background-color: #667acd;
+        border: none;
+        font-weight: bold;
+        box-shadow: 1px 2px #eae7e5;
+        /* text-shadow: 1px 0 #fff; */
+    }
+    button.profile_page_second {
+        border-radius: 200px !important;
+        width: 130px !important;
+        color: #667acd;
+        font-weight: 600;
+        height: 40px;
+        box-shadow: 1px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    }
+    /* #rounded_btn button {
+        border-radius: 200px !important;
+        width: 40px !important;
+        height: 40px;
+        color: #333;
+        background-color: #fff;
+        border: none;
+        font-weight: bold;
+        box-shadow: 4px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    } */
+    form#lifestyle_tab input {
+        border: 2px solid #003f5c !important;
+        background: #faf7f5;
+        height: 60px;
+    }
+    #custom_border_text {
+        position: absolute;
+        top: -11px;
+        left: 23px;
+        background: #faf7f5;
+        font-weight: 600;
+        width: 100px;
+        text-align: center;
+    }
+    form#personal_tab input {
+        border: 2px solid #003f5c !important;
+        background: #faf7f5;
+        height: 50px;
+    }
+    #custom_border_text_lifestyle {
+        position: absolute;
+        top: -11px;
+        left: 23px;
+        background: #faf7f5;
+        font-weight: 600;
+        width: 150px;
+        text-align: center;
+    }
+    /* Lifestyle container Padding */
+    .sectionPadding {
+        padding: 30px;
+    }
+    #thyroid_yes {
+        border-radius: 200px !important;
+        width: 130px !important;
+        height: 40px;
+        background-color: #fff;
+        border: none;
+        color: #667ACD !important;
+        font-weight: bold;
+        box-shadow: 1px 2px #eae7e5;
+        /* text-shadow: 1px 0 #fff; */
+    }
+    #thyroid_no {
+        border-radius: 200px !important;
+        width: 130px !important;
+        color: #667acd !important;
+        font-weight: 600;
+        background-color: #fff;
+        height: 40px;
+        box-shadow: 1px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+    #weekOne,
+    #weekTwo,
+    #weekThree,
+    #weekFour,
+    #weekFive {
+        border-radius: 200px !important;
+        width: 30px !important;
+        height: 30px;
+        color: #333;
+        background-color: #fff;
+        border: none;
+        font-size: 14px !important;
+        font-weight: bold;
+        box-shadow: 4px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    }
+    #badge_container span {
+        position: absolute;
+        right: 40px;
+        top: 40px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 9px;
+        padding: 5px;
+        border-radius: 0 !important;
+        background-color: #D09123 !important;
+    }
+    /* New Css */
+    .overflow_container {
+        width: inherit;
+        height: inherit;
+        overflow-y: scroll !important;
+    }
+    button.open-button {
+        width: 70px !important;
+        height: 70px !important;
+        background-color: #58508D !important;
+        padding: 10px 16px;
+        border-radius: 80px !important;
+        font-size: 24px;
+        line-height: 1.33;
+    }
+    button.open-button img {
+        width: 32px !important;
+        height: 36px !important;
+        line-height: 1.33;
+    }
+    .position_chat {
+        position: fixed;
+        bottom: 270px;
+        right: 28px;
+        display: none;
+        z-index: 9999;
+    }
+    #chat_widget {
+        zoom: 80% !important;
+        height: 70vh !important;
+        width: 420px !important;
+    }
+    /* New Css Ends here */
+    .ml-100 {
+        margin-left: 100px;
+    }
+    .searchButton {
+        position: relative;
+        right: 0;
+        color: white;
+        float: right;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background: #ffa600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        border: none;
+        /* z-index: 1 !important;  */
+    }
+    .searchInput {
+        height: 32px;
+        /* z-index: -10 !important;  */
+        margin-right: -25px;
+        border: none;
+        background: none;
+        outline: none;
+        /* float: left; */
+        padding: 0;
+        color: white;
+        font-size: 0.8rem;
+        transition: 0.4s;
+        line-height: 40px;
+        width: 200px;
+        border-radius: 40px;
+        background: #fff;
+    }
+    .p-viewport-devices {
+        padding-left: 95px !important;
+        margin-top: 0;
+        padding-right: 80px !important;
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    .custom_height {
+        height: 300px !important;
+        /* width: 220px; */
+    }
+    /* Profile Section CSS */
+    div#profile .card .card-body h5 {
+        font-weight: 800;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    div#profile .card .card-body h6 {
+        font-weight: 800;
+        font-size: 1.0rem;
+        text-align: center;
+    }
+    div#profile .card .card-body p {
+        font-weight: 800;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    div#nav-tabContent .tab-pane h2 {
+        padding-top: 30px;
+        font-weight: 900;
+    }
+    div#nav-tabContent .tab-pane p {
+        font-size: 14px;
+    }
+    #defination_s h5 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    button.profile_page {
+        border-radius: 200px !important;
+        width: 130px !important;
+        height: 40px;
+        background-color: #667acd;
+        border: none;
+        font-weight: bold;
+        box-shadow: 1px 2px #eae7e5;
+        /* text-shadow: 1px 0 #fff; */
+    }
+    button.profile_page_second {
+        border-radius: 200px !important;
+        width: 130px !important;
+        color: #667acd;
+        font-weight: 600;
+        height: 40px;
+        box-shadow: 1px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    }
+    /* #rounded_btn button {
+        border-radius: 200px !important;
+        width: 40px !important;
+        height: 40px;
+        color: #333;
+        background-color: #fff;
+        border: none;
+        font-weight: bold;
+        box-shadow: 4px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    } */
+    form#lifestyle_tab input {
+        border: 2px solid #003f5c !important;
+        background: #faf7f5;
+        height: 60px;
+    }
+    #custom_border_text {
+        position: absolute;
+        top: -11px;
+        left: 23px;
+        background: #faf7f5;
+        font-weight: 600;
+        width: 100px;
+        text-align: center;
+    }
+    form#personal_tab input {
+        border: 2px solid #003f5c !important;
+        background: #faf7f5;
+        height: 50px;
+    }
+    #custom_border_text_lifestyle {
+        position: absolute;
+        top: -11px;
+        left: 23px;
+        background: #faf7f5;
+        font-weight: 600;
+        width: 150px;
+        text-align: center;
+    }
+    /* Lifestyle container Padding */
+    .sectionPadding {
+        padding: 30px;
+    }
+    #thyroid_yes {
+        border-radius: 200px !important;
+        width: 130px !important;
+        height: 40px;
+        background-color: #fff;
+        border: none;
+        color: #667ACD !important;
+        font-weight: bold;
+        box-shadow: 1px 2px #eae7e5;
+        /* text-shadow: 1px 0 #fff; */
+    }
+    #thyroid_no {
+        border-radius: 200px !important;
+        width: 130px !important;
+        color: #667acd !important;
+        font-weight: 600;
+        background-color: #fff;
+        height: 40px;
+        box-shadow: 1px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    }
+}
+
+@media (min-width: 1600px) {
+    #weekOne,
+    #weekTwo,
+    #weekThree,
+    #weekFour,
+    #weekFive {
+        border-radius: 200px !important;
+        width: 30px !important;
+        height: 30px;
+        color: #333;
+        background-color: #fff;
+        border: none;
+        font-size: 14px !important;
+        font-weight: bold;
+        box-shadow: 4px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    }
+    #badge_container span {
+        position: absolute;
+        right: 40px;
+        top: 40px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 10px;
+        padding: 7px;
+        border-radius: 0 !important;
+        background-color: #D09123 !important;
+    }
+    /* New Css */
+    .overflow_container {
+        width: inherit;
+        height: inherit;
+        overflow-y: scroll !important;
+    }
+    button.open-button {
+        width: 80px !important;
+        height: 80px !important;
+        background-color: #58508D !important;
+        padding: 10px 16px;
+        border-radius: 80px !important;
+        font-size: 24px;
+        line-height: 1.33;
+    }
+    button.open-button img {
+        width: 37px !important;
+        height: 40px !important;
+        line-height: 1.33;
+    }
+    .position_chat {
+        position: fixed;
+        bottom: 270px;
+        right: 28px;
+        display: none;
+        z-index: 9999;
+    }
+    #chat_widget {
+        zoom: 90% !important;
+        height: 70vh !important;
+        width: 420px !important;
+    }
+    /* New Css Ends here */
+    .ml-100 {
+        margin-left: 120px;
+    }
+    .searchButton {
+        position: relative;
+        right: 0;
+        color: white;
+        float: right;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background: #ffa600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s;
+        border: none;
+        /* z-index: 1 !important;  */
+    }
+    .searchInput {
+        height: 22px;
+        /* z-index: -10 !important;  */
+        margin-right: -25px;
+        border: none;
+        background: none;
+        outline: none;
+        /* float: left; */
+        padding: 0;
+        color: white;
+        font-size: 0.6rem;
+        transition: 0.4s;
+        line-height: 40px;
+        width: 120px;
+        border-radius: 40px;
+        background: #fff;
+    }
+    .p-viewport-devices {
+        padding-left: 120px !important;
+        margin-top: 0;
+        padding-right: 120px !important;
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    /* Profile Section CSS */
+    div#profile .card .card-body .card-title {
+        font-weight: 800;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    div#nav-tabContent .tab-pane h2 {
+        padding-top: 30px;
+        font-weight: 900;
+    }
+    div#nav-tabContent .tab-pane p {
+        font-size: 14px;
+    }
+    #defination_s h5 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    /* button.profile_page {
+        border-radius: 200px !important;
+        width: 130px !important;
+        height: 40px;
+        background-color: #667acd;
+        border: none;
+        font-weight: bold;
+        box-shadow: 1px 2px #eae7e5;
+    } */
+    /* button.profile_page_second {
+        border-radius: 200px !important;
+        width: 130px !important;
+        color: #667acd;
+        font-weight: 600;
+        height: 40px;
+        box-shadow: 1px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    } */
+    /* #rounded_btn button {
+        border-radius: 200px !important;
+        width: 40px !important;
+        height: 40px;
+        color: #333;
+        background-color: #fff;
+        border: none;
+        font-weight: bold;
+        box-shadow: 4px 2px #eae7e5;
+        text-shadow: 1px 0 #fff;
+    } */
+    form#lifestyle_tab input {
+        border: 2px solid #003f5c !important;
+        background: #faf7f5;
+        height: 60px;
+    }
+    #custom_border_text {
+        position: absolute;
+        top: -11px;
+        left: 23px;
+        background: #faf7f5;
+        font-weight: 600;
+        width: 100px;
+        text-align: center;
+    }
+    form#personal_tab input {
+        border: 2px solid #003f5c !important;
+        background: #faf7f5;
+        height: 50px;
+    }
+    #custom_border_text_lifestyle {
+        position: absolute;
+        top: -11px;
+        left: 23px;
+        background: #faf7f5;
+        font-weight: 600;
+        width: 150px;
+        text-align: center;
+    }
+    /* Lifestyle container Padding */
+    .sectionPadding {
+        padding: 30px;
+    }
+}

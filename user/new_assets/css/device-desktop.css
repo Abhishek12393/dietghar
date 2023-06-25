@@ -1,0 +1,135 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+.logo-position {margin-left: 45% !important;}
+.p-viewport-devices {padding-left: 48px !important;padding-right: 10px !important;}
+img.open-button {width: 140px;height: 40px;}
+#review_recipe {width: 80%;padding-left: 20px !important;}
+.reviews_img_position {width: 130px !important;}
+.second_dev {padding-top: 5px !important;}
+#recipe_container .sm_cont span {font-size: 15px !important;}
+#lower_recipe h2 {font-size: 15px!important; font-weight: 600 !important;}}
+#lower_recipe p {font-size: 13px!important;font-weight: 500;}
+.card-height-lg {height: 350px !important;}
+#main_card .w-h {width: 50px;height: 50px;}
+#main_card .w-h2 {width: 18px;height: 25px;cursor: pointer;}
+#main_card .w-h3 {width: 80px;padding-right: 12px;cursor: pointer;}
+#main_card .card h6 {color: #000;font-size: 18px;font-weight: 800;cursor: pointer;}
+#main_card .card p {font-size: 13px;font-weight: 400;}
+#main_card .card {border-radius: 15px;}
+.custom_yourprojects {margin-left: 20px;font-weight: 800;font-size: 16px;}
+canvas#myChart-1 {width: 100%;height: 200px !important;padding: 13px;}
+canvas#myChart-2 {width: 100%;height: 200px !important;padding: 13px;}
+#chart_card p { margin-top:-30px;margin-bottom:50px;text-align:center;position:relative;top: 40px;left: 35px;font-weight: 600;font-size: 11px;Color: #58508D;}
+.shadow_custom {box-shadow: 0.1rem 0.1rem 0.1rem 0.1px rgba(0, 0, 0, 0.15) !important;}
+.progress {width: 100%;}
+.progress_scale {width: 90%;margin-left: auto;}
+.progress_span {position: relative;top: 20px;font-size: 13px;font-weight: 700;}
+.text_activity {color: #58508D ! important;}
+.owl-carousel{display:none;width:100% !important;z-index:1}
+#carousal_cards .card-title {font-size: 14px;font-weight: 600;color: #000;}
+.owl-theme .owl-nav.disabled + .owl-dots {display: none !important;}
+#carousal_cards .card-text {color: #000;}
+#carousal_cards .card-body {background-color: #FAF7F5;}
+#exercises_container p{font-size: 10px;color: #000;}
+#exercises_container img{width: 42px;height: 42px;font-weight: 600;}
+#exercises_container h6{font-size: 12px;font-weight: 700;margin-top: 9px;}
+#exercises_container {border-radius: 10px;}
+div.card {zoom: 70% !important;} 
+#recipe_container h4.heading {font-size: 22px;font-weight: 800;}
+#recipe_container .topBtn {color: #fff;font-size: 11px;font-weight: 700;padding: 2px;width: 160px;border-radius: 5px;background-color: #d3d3d3;}
+#details_container h6 {font-size: 13px;font-weight: 800;color: #000;}
+#details_container p {font-size: 11px;font-weight: 800;color: #58508d;}
+#social_btn {position: absolute;right: 70px;top: 0;background-color: #d3d3d3;padding: 3px;height: 30px;border-radius: 20px;width: 100px;}
+#scroll-container {height: 70vh;overflow-y: scroll;}
+}
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+.logo-position {margin-left: 45% !important;}
+.p-viewport-devices {padding-left: 1px !important;padding-right: 0px !important;}
+#review_recipe {width: 80%;padding-left: 20px !important;}
+.second_dev {padding-top: 5px !important;}
+#recipe_container .sm_cont span {font-size: 15px !important;}
+#lower_recipe h2 {font-size: 15px!important; font-weight: 600 !important;}
+#lower_recipe p {font-size: 13px!important;font-weight: 500;}
+#main_card .w-h {width: 50px;height: 50px;}
+#main_card .w-h2 {width: 18px;height: 25px;cursor: pointer;}
+#main_card .w-h3 {width: 120px;cursor: pointer;}
+#main_card .card h6 {color: #000;font-size: 18px;font-weight: 800;cursor: pointer;}
+#main_card .card p {font-size: 13px;font-weight: 400;}
+#main_card .card {border-radius: 15px;}
+.custom_yourprojects {margin-left: 20px;font-weight: 800;font-size: 16px;}
+canvas#myChart-1 {width: 100%;padding: 13px;}
+canvas#myChart-2 {width: 100%;padding: 13px;}
+#chart_card p { margin-top:-30px;margin-bottom:50px;text-align:center;position:relative;top: 40px;left: 35px;font-weight: 600;font-size: 11px;Color: #58508D;}
+.shadow_custom {box-shadow: 0.1rem 0.1rem 0.1rem 0.1px rgba(0, 0, 0, 0.15) !important;}
+.progress {width: 80%;margin-left: 0px;}
+.progress_scale {width: 80%;margin-left: auto;}
+.progress_span {position: relative;top: 0px;font-size: 16px;font-weight: 700;}
+.text_activity {color: #58508D ! important;}
+.owl-carousel{display:none;width:100% !important;z-index:1}
+#carousal_cards .card-title {font-size: 14px;font-weight: 600;color: #000;}
+#carousal_cards .card-text {color: #000;}
+#carousal_cards .card-body {background-color: #FAF7F5;}
+#exercises_container p{font-size: 10px;color: #000;}
+#exercises_container img{width: 70px;height: 70px;font-weight: 600;}
+#exercises_container h6{font-size: 14px;font-weight: 700;margin-top: 9px;}
+#exercises_container {border-radius: 10px;}
+div.card {zoom: 80% !important;} 
+#recipe_container h4.heading {font-size: 22px;font-weight: 800;}
+#recipe_container .topBtn {color: #fff;font-size: 11px;font-weight: 700;padding: 2px;width: 160px;border-radius: 5px;background-color: #d3d3d3;}
+#details_container h6 {font-size: 13px;font-weight: 800;color: #000;}
+#details_container p {font-size: 11px;font-weight: 800;color: #58508d;}
+#social_btn {position: absolute;right: 70px;top: 0;background-color: #d3d3d3;padding: 3px;height: 30px;border-radius: 20px;width: 100px;}
+#scroll-container {height: 70vh;overflow-y: scroll;}
+}
+
+@media (min-width: 1600px) {
+.container {max-width: 1640px;}
+.logo-position {margin-left: 40px !important;}
+.p-viewport-devices {padding-left: 100px;margin-top: 0px;padding-right: 100px;padding-top: 0px;padding-bottom: 20px;}
+#review_recipe {width: 80%;padding-left: 20px !important;}
+.second_dev {padding-top: 5px !important;}
+#recipe_container .sm_cont span {font-size: 15px !important;}
+#lower_recipe h2 {font-size: 15px!important;}
+#lower_recipe p {font-size: 13px!important;font-weight: 500;}
+canvas#myChart-1 {width: 100%;height: 240px !important;padding: 13px;}
+canvas#myChart-2 {width: 100%;height: 240px !important;padding: 13px;}
+#chart_card p {position: relative;top: 40px;left: 35px;font-weight: 600;font-size: 11px;color: #58508D;}
+#main_card .w-h {width: 50px;height: 50px;}
+#main_card .w-h2 {width: 18px;height: 25px;cursor: pointer;}
+#main_card .w-h3 {width: 80px;cursor: pointer;}
+#main_card .card h6 {color: #000;font-size: 18px;font-weight: 800;cursor: pointer;}
+#main_card .card p {font-size: 13px;font-weight: 400;}
+#main_card .card {border-radius: 15px;}
+.custom_yourprojects {margin-left: 20px;font-weight: 800;font-size: 16px;}
+.shadow_custom {box-shadow: 0.1rem 0.1rem 0.1rem 0.1px rgba(0, 0, 0, 0.15) !important;}
+.progress {width: 80%;margin-left: 0px;}
+.progress_scale {width: 80%;margin-left: auto;}
+.progress_span {position: relative;top: 0px;font-size: 16px;font-weight: 700;}
+.text_activity {color: #58508D ! important;}
+.owl-carousel{display:none;width:100% !important;z-index:1}
+#carousal_cards .card-title {font-size: 14px;font-weight: 600;color: #000;}
+#carousal_cards .card-text {color: #000;}
+#carousal_cards .card-body {background-color: #FAF7F5;}
+#exercises_container p{font-size: 10px;color: #000;}
+#exercises_container img{width: 70px;height: 70px;font-weight: 600;}
+#exercises_container h6{font-size: 14px;font-weight: 700;margin-top: 9px;}
+#exercises_container {border-radius: 10px;}
+div.card {zoom: 80% !important;} 
+#recipe_container h4.heading {font-size: 22px;font-weight: 800;}
+#recipe_container .topBtn {color: #fff;font-size: 11px;font-weight: 700;padding: 2px;width: 160px;border-radius: 5px;background-color: #d3d3d3;}
+#details_container h6 {font-size: 13px;font-weight: 800;color: #000;}
+#details_container p {font-size: 11px;font-weight: 800;color: #58508d;}
+#social_btn {position: absolute;right: 70px;top: 0;background-color: #d3d3d3;padding: 3px;height: 30px;border-radius: 20px;width: 100px;}
+#scroll-container {height: 70vh;overflow-y: scroll;}
+}
+
+@media (max-width: 768px){ .measuments-submit-btn {background: #333 !important; color: #fff !important;} }
+.measurements-0list-main-images-list-set-23 {width: 100%;display: block;position: relative;text-align: center;margin-left: 10px;}
+.media-object-measurements {width: 70px;margin: 0 0px 0 0px !important;}
+.media-measurements .media-body {padding: 5px 0 5px;width: 100%;min-width: 100%;max-width: 100%;float: left;display: block;}
+.input-number-nexk-size {width: 70px;padding: 2px !important;background: #f1f1f1;border: 1px solid #cecece;border-radius: 5px;float: left;}
+.btn-number-settings-measurements {font-size: 30px;float: right;background: #f896c1;padding: 6px 11px !important; border-radius: 5px;color: #FFF;line-height: 20px;}
+
+
+@media (max-width:767px){.hidden-xs{display:none!important}}
+@media (min-width:768px){.hidden-lg{display:none!important}}

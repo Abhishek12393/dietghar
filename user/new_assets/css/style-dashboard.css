@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {margin: 0;padding: 0;list-style:none;text-decoration:none;box-sizing: border-box;font-family:'Montserrat',sans-serif;}
+body {font-size:16px;background-color: #faf7f5;font-family: "Montserrat", sans-serif;}
+.feather {width: 16px;height:16px;vertical-align:text-bottom;}
+.navbar {flex-wrap: nowrap;line-height:2;background-color:darkslateblue;}
+nav .navbar {background-color:#faf7f5 !important;color:#333;}
+.navbar-brand {font-size: 1rem;font-weight:900 !important;color:#333;text-shadow:0 0 #333;}
+.link-size {font-size:16px !important;color:#000;}
+
+h4, .h4 {font-size: 1.5rem;}
+h5, .h5 {font-size: 1.rem !important;}
+.bg-white {background-color: #fff;}
+.ml-10 {margin-left: 10px;}
+.ml-20 {margin-left: 20px;}
+.ml-30 {margin-left: 30px;}
+.ml-40 {margin-left: 40px !important;}
+.ml-80 {margin-left: 80px;}
+.overflow_container {width: inherit;height: inherit;overflow-y: scroll !important;}
+.margin-mobile {margin-top: 10px !important;margin-left: 0px !important;}
+.logo-position {margin-left: 45% !important;}
+/* Sidebar */
+@keyframes menu {0% {position: absolute;top:130px;right:120px;width:300px;padding:10px;} 100% {position: absolute;top:180px;right:120px;width:300px;padding:10px;} }
+.wrapper {z-index: 8000;}
+.wrapper .top_navbar {height: 60px;display: flex;position: absolute;top: 0;}
+#toggle {position: absolute;top:100px;right:120px;color: #fff !important;display: block;width: 300px;height: 40px;border-radius: 10px;margin: 30px auto 10px;background: #58508d;border: 1px solid #58508d;}
+#toggle:active {border: none;}
+#toggle.on+#menu {opacity: 1;visibility:visible;}
+#menu_sm {display:none;}
+#toggle_sm {display:none;color:white;}
+#menu {position:absolute;top:180px;right:120px;z-index:2000;color:#999;width:300px;padding:10px;margin:auto;text-align:center;border-radius:4px;background: white; box-shadow: 0 1px 8px rgba(0, 0, 0, 0.05);opacity: 0;visibility: hidden;}
+#toggle h5 {font-weight: 900;font-size: 22px;}
+#menu:after {position: absolute;top: 180px;left: 120px;content: "";display: block;border-left: 15px solid transparent;border-right: 15px solid transparent; border-bottom: 20px solid white;}
+#menu ul,li,li a {list-style: none;display:block;margin:0;padding:0;}
+#menu li a {padding: 5px;color:#888;text-decoration:none;transition:all 0.2s;}
+#menu li a:hover,#menu li a:focus {color: #fff;border:none;}
+#menu li a:active {border:none;}
+#menup,p a {font-size: 12px;font-weight:900;text-align:center;color:#333;}
+
+.wrapper .top_navbar .hamburger {width:75px !important;height:100%;padding:5px 5px;border-top-left-radius:20px;cursor:pointer;background:#fff;vertical-align: bottom !important;z-index: 9999;transition:all 0.4s ease;}
+.wrapper .top_navbar .hamburger img {width:55px;height:40px;margin-left:-5px;}
+.wrapper .sidebar {position:absolute;top:60px;background:#fff;width:75px;overflow: hidden;height:100vh;z-index:9999; border-bottom-right-radius:100px 100px;box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.05);transition: all 0.3s ease;}
+/* .wrapper .sidebar ul li:first-child {border-right:4px solid #667acd;border-radius:4px;} */
+.wrapper .sidebar ul li a {display:block;padding:10px 30px;position:relative;white-space:nowrap;text-decoration:none;}
+.wrapper .sidebar ul li a:before {content: "";position:absolute;top:0;left:0;/* background: #fff; *//* display: none; */}
+.wrapper .sidebar ul li a span.icon {margin-right:20px;display:inline-block;}
+.wrapper .sidebar ul li a span.title {font-size: 10px;vertical-align:sub;color:#333 !important;display:inline-block;}
+.wrapper .sidebar ul li a:hover,.wrapper .sidebar ul li a.active {/* background: #fff;*/color:#667acd !important;}
+.wrapper .sidebar ul li a:hover:before,.wrapper .sidebar ul li a.active:before {display:block;}
+.wrapper.collapse_sm .top_navbar .hamburger {width:150px !important;text-align:justify;overflow:visible;}
+.wrapper.collapse_sm .sidebar {width: 150px;transition: all 0.5s ease;display:block;text-align: justify;overflow:visible;}
+.wrapper.collapse_sm .sidebar ul li a {text-align:justify;overflow:hidden;}
+.wrapper.collapse_sm .sidebar ul li a span.icon {margin-right:10px;}
+.wrapper.collapse_sm .sidebar ul li a span.title {/* font-size: 10px;vertical-align: sub;color: #333!important; */display:contents;}
+
+
+/* Chat Box */
+.open-button {position: fixed;bottom: 15px;right: 28px;}
+.close-icon {cursor: pointer;}
+.card .card-header {background: #58508D;border-radius: 20px 20px 0 0;}
+.card .card-header span {font-size: 20px;padding-left: 20px;font-weight: bold;color: white;vertical-align: middle;}
+.card ul.list-group li:first-child {font-size: 14px;font-weight: 550;}
+.card .danger_team {color: #FF6361;}
+.card ul.list-group li.list-group-item .row .col-10 p {font-size: 14px;color: #000;}
+/*.card {border-radius: 20px 20px 0 0;}*/
+.card {position: relative;display:flex;flex-direction: column;min-width: 0;word-wrap: break-word;background-color:#fff;background-clip:border-box;border:0px solid #000;border-radius:5% !important;}
+.card-img-top {width: 100%;border-radius: 8% !important;}
+.card-footer {background-color: #ece07f;}
+.card .card-header button {padding: 20px;}
+.btn {display: inline-block;background: transparent;color: inherit;font: inherit;border: 0;outline: 0;padding: 0;-webkit-transition: all 200ms ease-in;transition: all 200ms ease-in;cursor: pointer;}
+.btn--primary {background: #58508D ! important;color: #fff;-webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);border-radius: 90px;padding: 10px 10px;}
+.btn--primary:hover {background: #58508D ! important;color: white;}
+.btn--primary:active {background: #58508D;-webkit-box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.2);box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.2);}
+.btn--inside {margin-left: -46px;}
+.form__field {background: #fff;border-radius: 100px;color: #000;height: 38px;width: 260px;font: inherit;-webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);border: 0;outline: 0;padding: 10px 18px;}
+.position_chat {position: fixed;bottom: 120px;right: 10px;display: none;z-index: 9999;}
+#chat_widget {height: 70vh !important;width: 420px !important;}
+button.open-button {width: 50px !important;height: 50px !important;background-color:#58508D !important;padding: 1px 1px;border-radius: 80px !important;font-size: 24px;line-height: 1.33;}
+button.open-button img {width: 32px !important;height: 36px !important;line-height: 1.33;}
+
+.btn-danger {color: #fff;background-color: #dc3545;border-color: #dc3545;padding: 10px;border-radius: 5px;}
+
+/* Profile Page */
+button.profile_save_btn {border-radius: 200px !important;width: 80px !important;height: 30px;background-color: #667acd;border: none;font-weight: bold;box-shadow: 1px 2px #eae7e5;}
+button.profile_cancel_btn {border-radius: 200px !important;width: 80px !important;color: #667acd;font-weight: 600;height: 30px;box-shadow: 1px 2px #eae7e5;text-shadow: 1px 0 #fff;}
+.image-upload > input {display: none;}
+.image-upload img{cursor: pointer;}
+
+
+.recipe-card {position:relative;display:flex;flex-direction:column;min-width:0;word-wrap:break-word;background-color:#fff;background-clip:border-box;border:1px solid #000;border-radius:5% !important;}
+.recipe-card-shadow-sm {box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;}
+.recipe-card-img-top {width: 100%;border-radius: 8% !important;}
+.recipe-card-body {flex:1 1 auto;padding:1.25rem;}
+
+
+.recipe-header-img {height: auto;width: 100%;}
+#lower_recipe h2 {line-height: 1.2;margin-bottom: 0.5rem;}
+
+/*
+.searchButton {position: relative;right: 0;top: 5px;color: white;float: right;width: 25px;height: 25px;border-radius: 50%;background: #ffa600;display: flex;justify-content: center;align-items: center;transition: 0.4s;border: none;}
+.searchInput {height: 22px;display: inline !important;margin-right: -15px;border: none;background: none;outline: none;padding: 0;color: white;font-size: 0.6rem;transition: 0.4s;line-height: 40px;width: 65px;border-radius: 40px;background: #fff;}
+.mr-custom-mobile {margin-right: 0px !important;}
+.reviews_position {position: relative;top: 7px;}
+.reviews_img_position {width: 120px !important;position: relative;top: 5px;}
+.ingre_cl {font-size: 12px;}
+*/

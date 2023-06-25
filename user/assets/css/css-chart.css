@@ -1,0 +1,73 @@
+.chart-area-define-profile {
+    width: 100%;
+    display: block;
+}
+
+.left-area-chat-secrion-rolll {
+    width: 10%;
+    float: left;
+    position: relative;
+}
+
+.center-area-chat-secrion-rolll {
+    width: 78%;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+.right-area-chat-secrion-rolll {
+    width: 10%;
+    float: right;
+    position: relative;
+}
+
+.graph-css-reae-settings-list-title {
+    display: block;
+    margin: 40px 0 30px 0;
+    color: #03A9F4;
+}
+
+.list-start-kg {
+    font-size: 14px;
+    margin: 0 0 200px 0;
+}
+
+.chat-line-secction--u66 {
+    height: 30px;
+    /* width: 2px !important; */
+    background: #00BCD4;
+    /* display: block; */
+    border-left: 27px solid #FFF;
+    border-right: 27px solid #FFF;
+}
+
+.chat-line-secction--u66:nth-child(1) {
+  background: red;
+  height: 220px;
+}
+
+.chat-line-secction--u66:nth-child(2) {
+  background: red;
+  height: 200px;
+}
+
+.chat-line-secction--u66:nth-child(3) {
+  background: red;
+  height: 180px;
+}
+
+.chat-line-secction--u66:nth-child(4) {
+  background: red;
+  height: 170px;
+}
+
+.chat-line-secction--u66:nth-child(5) {
+  background: red;
+  height: 160px;
+}
+
+.chat-line-secction--u66:nth-child(6) {
+  background: red;
+  height: 150px;
+}
